@@ -1,9 +1,5 @@
 <?php
-
-
 namespace wfm;
-
-
 trait TSingleton
 {
 
@@ -15,5 +11,4 @@ trait TSingleton
     {
         return static::$instance ?? static::$instance = new static();
     }
-
 }

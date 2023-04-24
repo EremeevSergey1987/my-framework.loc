@@ -18,3 +18,9 @@
 =================
 [2023-04-24 03:15:17] Текст ошибки: Возникла ошибка | Файл: /var/www/html/my-framework.loc/public/index.php | Строка: 11
 =================
+[2023-04-24 04:39:15] Текст ошибки: Возникла ошибка | Файл: /var/www/html/my-framework.loc/public/index.php | Строка: 12
+=================
+[2023-04-24 04:39:29] Текст ошибки: Возникла ошибка | Файл: /var/www/html/my-framework.loc/public/index.php | Строка: 12
+=================
+[2023-04-24 04:39:40] Текст ошибки: Undefined variable $erwew | Файл: /var/www/html/my-framework.loc/public/index.php | Строка: 13
+=================

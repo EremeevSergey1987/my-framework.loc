@@ -21,8 +21,29 @@
          return self::$route;
      }
 
+
      public static function dispatch($url)
      {
-         var_dump($url);
+         if (self::matchRoute($url)) {
+             echo 'OK';
+         } else {
+             echo 'NO';
+         }
+     }
+
+     public static function matchRoute($url): bool
+     {
+         foreach (self::$routes as $pattern => $route ){
+
+             print_r($url);
+             echo '<br/>';
+             print_r($pattern);
+             echo '<br/>';
+
+             if (preg_match("#{$pattern}#", $url, $matches)) {
+                 return true;
+             }
+         }
+         return false;
      }
  }

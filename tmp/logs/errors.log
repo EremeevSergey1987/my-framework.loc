@@ -24,3 +24,37 @@
 =================
 [2023-04-24 04:39:40] Текст ошибки: Undefined variable $erwew | Файл: /var/www/html/my-framework.loc/public/index.php | Строка: 13
 =================
+[2023-04-26 08:03:02] Текст ошибки: Контроллер app\controllers\MainController не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 40
+=================
+[2023-04-26 08:03:02] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 43
+=================
+[2023-04-26 08:03:23] Текст ошибки: Контроллер app\controllers\MainController не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 40
+=================
+[2023-04-26 08:03:25] Текст ошибки: Контроллер app\controllers\MainController не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 40
+=================
+[2023-04-26 08:03:40] Текст ошибки: Контроллер app\controllers\MainController не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 40
+=================
+[2023-04-26 08:05:56] Текст ошибки: Метод app\controllers\MainController::indexAction не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 36
+=================
+[2023-04-26 08:08:51] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 40
+=================
+[2023-04-26 08:09:21] Текст ошибки: Метод app\controllers\PageController::controllerAction не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 36
+=================
+[2023-04-26 08:10:19] Текст ошибки: Метод app\controllers\PageController::controllerAction не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 36
+=================
+[2023-04-26 08:12:03] Текст ошибки: Метод app\controllers\PageController::controllerAction не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 36
+=================
+[2023-04-26 08:12:06] Текст ошибки: Метод app\controllers\PageController::controllerAction не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 36
+=================
+[2023-04-26 08:22:57] Текст ошибки: Метод app\controllers\PageController::controllerAction не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 36
+=================
+[2023-04-26 08:25:46] Текст ошибки: Контроллер app\controllers\pageController не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 40
+=================
+[2023-04-26 08:26:01] Текст ошибки: Метод app\controllers\PageController::controllerAction не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 36
+=================
+[2023-04-26 08:26:49] Текст ошибки: Метод app\controllers\PageController::viewAction не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 36
+=================
+[2023-04-26 08:27:35] Текст ошибки: Контроллер app\controllers\admin\MainController не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 40
+=================
+[2023-04-26 08:28:38] Текст ошибки: Метод app\controllers\admin\MainController::indexAction не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 36
+=================

@@ -58,3 +58,5 @@
 =================
 [2023-04-26 08:28:38] Текст ошибки: Метод app\controllers\admin\MainController::indexAction не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 36
 =================
+[2023-04-26 08:37:58] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 44
+=================

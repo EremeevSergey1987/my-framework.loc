@@ -64,3 +64,161 @@
 =================
 [2023-04-27 08:41:59] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 57
 =================
+[2023-04-29 10:02:14] Текст ошибки: Call to undefined method app\controllers\admin\MainController::getModel() | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 45
+=================
+[2023-04-29 10:02:14] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 57
+=================
+[2023-04-29 10:02:20] Текст ошибки: Call to undefined method app\controllers\admin\MainController::getModel() | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 45
+=================
+[2023-04-29 10:02:20] Текст ошибки: Call to undefined method app\controllers\admin\MainController::getModel() | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 45
+=================
+[2023-04-29 10:03:15] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/MainController.php | Строка: 11
+=================
+[2023-04-29 10:04:09] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/MainController.php | Строка: 11
+=================
+[2023-04-29 10:04:12] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 28
+=================
+[2023-04-29 10:04:14] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 28
+=================
+[2023-04-29 10:11:36] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 28
+=================
+[2023-04-29 10:11:37] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 28
+=================
+[2023-04-29 10:11:38] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 28
+=================
+[2023-04-29 10:11:38] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 28
+=================
+[2023-04-29 10:11:39] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 28
+=================
+[2023-04-29 10:12:16] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/MainController.php | Строка: 11
+=================
+[2023-04-29 10:13:26] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 28
+=================
+[2023-04-29 10:15:50] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 27
+=================
+[2023-04-29 10:16:41] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 27
+=================
+[2023-04-29 10:20:20] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 27
+=================
+[2023-04-29 10:20:21] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 27
+=================
+[2023-04-29 10:20:22] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 27
+=================
+[2023-04-29 10:20:23] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 27
+=================
+[2023-04-29 10:22:43] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 27
+=================
+[2023-04-29 10:22:45] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 27
+=================
+[2023-04-29 10:23:03] Текст ошибки: Typed property wfm\Controller::$layout must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 28
+=================
+[2023-04-29 10:23:05] Текст ошибки: Typed property wfm\Controller::$layout must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 28
+=================
+[2023-04-29 10:23:05] Текст ошибки: Typed property wfm\Controller::$layout must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 28
+=================
+[2023-04-29 10:23:05] Текст ошибки: Typed property wfm\Controller::$layout must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 28
+=================
+[2023-04-29 10:23:06] Текст ошибки: Typed property wfm\Controller::$layout must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 28
+=================
+[2023-04-29 10:24:15] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 27
+=================
+[2023-04-29 10:24:18] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 27
+=================
+[2023-04-29 10:24:57] Текст ошибки: Typed property wfm\Controller::$layout must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 29
+=================
+[2023-04-29 10:24:58] Текст ошибки: Typed property wfm\Controller::$layout must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 29
+=================
+[2023-04-29 10:24:59] Текст ошибки: Typed property wfm\Controller::$layout must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 29
+=================
+[2023-04-29 10:26:18] Текст ошибки: Typed property wfm\Controller::$layout must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 29
+=================
+[2023-04-29 10:26:32] Текст ошибки: Typed property wfm\Controller::$layout must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 29
+=================
+[2023-04-29 10:26:52] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 28
+=================
+[2023-04-29 10:27:04] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 28
+=================
+[2023-04-29 10:27:11] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 28
+=================
+[2023-04-29 10:28:06] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 28
+=================
+[2023-04-29 10:28:09] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 28
+=================
+[2023-04-29 10:28:25] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 16
+=================
+[2023-04-29 10:28:26] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 16
+=================
+[2023-04-29 10:28:27] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 16
+=================
+[2023-04-29 10:28:36] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 32
+=================
+[2023-04-29 10:28:48] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 30
+=================
+[2023-04-29 10:29:48] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 27
+=================
+[2023-04-29 10:30:31] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 27
+=================
+[2023-04-29 10:30:33] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 27
+=================
+[2023-04-29 10:30:34] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 27
+=================
+[2023-04-29 10:31:03] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 27
+=================
+[2023-04-29 10:34:41] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 27
+=================
+[2023-04-29 10:34:50] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 27
+=================
+[2023-04-29 10:35:07] Текст ошибки: Typed property wfm\Controller::$view must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 27
+=================
+[2023-04-29 10:42:42] Текст ошибки: Typed property wfm\Controller::$layout must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 28
+=================
+[2023-04-29 10:42:42] Текст ошибки: Typed property wfm\Controller::$layout must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 28
+=================
+[2023-04-29 10:42:43] Текст ошибки: Typed property wfm\Controller::$layout must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/vendor/wfm/Controller.php | Строка: 28
+=================
+[2023-04-29 10:52:24] Текст ошибки: is_file() expects exactly 1 argument, 0 given | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 28
+=================
+[2023-04-29 10:54:09] Текст ошибки: is_file() expects exactly 1 argument, 0 given | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 28
+=================
+[2023-04-29 10:54:10] Текст ошибки: is_file() expects exactly 1 argument, 0 given | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 28
+=================
+[2023-04-29 10:54:53] Текст ошибки: is_file() expects exactly 1 argument, 0 given | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 28
+=================
+[2023-04-29 10:54:54] Текст ошибки: is_file() expects exactly 1 argument, 0 given | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 28
+=================
+[2023-04-29 10:57:27] Текст ошибки: is_file() expects exactly 1 argument, 0 given | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 28
+=================
+[2023-04-29 10:58:10] Текст ошибки: is_file() expects exactly 1 argument, 0 given | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 28
+=================
+[2023-04-29 11:24:08] Текст ошибки: syntax error, unexpected token "}" | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 32
+=================
+[2023-04-29 11:30:09] Текст ошибки: Не найден шаблон /var/www/html/my-framework.loc/app/views/layouts/file_storage.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 40
+=================
+[2023-04-29 11:32:53] Текст ошибки: Не найден шаблон /var/www/html/my-framework.loc/app/views/layouts/file_storage.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 40
+=================
+[2023-04-29 11:32:54] Текст ошибки: Не найден шаблон /var/www/html/my-framework.loc/app/views/layouts/file_storage.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 40
+=================
+[2023-04-30 04:24:15] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 57
+=================
+[2023-04-30 04:24:46] Текст ошибки: Call to undefined method wfm\View::meta() | Файл: /var/www/html/my-framework.loc/app/views/layouts/ishop.php | Строка: 15
+=================
+[2023-04-30 04:24:47] Текст ошибки: Call to undefined method wfm\View::meta() | Файл: /var/www/html/my-framework.loc/app/views/layouts/ishop.php | Строка: 15
+=================
+[2023-04-30 04:24:49] Текст ошибки: Call to undefined method wfm\View::meta() | Файл: /var/www/html/my-framework.loc/app/views/layouts/ishop.php | Строка: 15
+=================
+[2023-04-30 04:35:17] Текст ошибки: Undefined variable $test | Файл: /var/www/html/my-framework.loc/app/views/Main/index.php | Строка: 2
+=================
+[2023-04-30 04:41:11] Текст ошибки: Undefined variable $test | Файл: /var/www/html/my-framework.loc/app/views/Main/index.php | Строка: 2
+=================
+[2023-04-30 04:41:31] Текст ошибки: Undefined variable $test | Файл: /var/www/html/my-framework.loc/app/views/Main/index.php | Строка: 2
+=================
+[2023-04-30 04:42:01] Текст ошибки: Undefined variable $test | Файл: /var/www/html/my-framework.loc/app/views/Main/index.php | Строка: 2
+=================
+[2023-04-30 04:42:56] Текст ошибки: Undefined variable $test | Файл: /var/www/html/my-framework.loc/app/views/Main/index.php | Строка: 2
+=================
+[2023-04-30 04:43:57] Текст ошибки: Undefined variable $test | Файл: /var/www/html/my-framework.loc/app/views/Main/index.php | Строка: 2
+=================
+[2023-04-30 04:47:08] Текст ошибки: Undefined variable $names | Файл: /var/www/html/my-framework.loc/app/views/Main/index.php | Строка: 4
+=================
+[2023-04-30 04:47:10] Текст ошибки: Undefined variable $names | Файл: /var/www/html/my-framework.loc/app/views/Main/index.php | Строка: 4
+=================

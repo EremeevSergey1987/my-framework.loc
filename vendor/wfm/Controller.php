@@ -6,8 +6,8 @@ abstract class Controller
 {
     public array $data = [];
     public array $meta = [];
-    public false|string $layout;
-    public string $view;
+    public $layout;
+    public $view;
     public object $model;
 
     public function __construct(public $route = [])

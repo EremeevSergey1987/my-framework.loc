@@ -8,7 +8,7 @@ define("HELPERS", ROOT . '/vendor/wfm/helpers');
 define("CACHE", ROOT . '/tmp/cache');
 define("LOGS", ROOT . '/tmp/logs');
 define("CONFIG", ROOT . '/config');
-define("LAYOUT", 'file_storage');
+define("LAYOUT", 'ishop');
 define("PATH", 'http://my-framework.loc/');
 define("ADMIN", 'http://my-framework.loc/admin');
 define("NO_IMAGE", 'uploads/no_image.jpg');

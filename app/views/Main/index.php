@@ -1,9 +1,9 @@
 
-<?php if(!empty($names)): ?>
-    <?php foreach ($names as $name): ?>
-        <?= $name->id ?> => <?=$name->name ?> </br>
-    <?php endforeach; ?>
-<?php endif; ?>
+<?php //if(!empty($names)): ?>
+<!--    --><?php //foreach ($names as $name): ?>
+<!--        --><?php //= $name->id ?><!-- => --><?php //=$name->name ?><!-- </br>-->
+<!--    --><?php //endforeach; ?>
+<?php //endif; ?>
 
 <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
     <h1 class="display-4 fw-normal">Файловое хранилище</h1>

@@ -16,7 +16,6 @@ class View
     {
         if(false !== $this->layout){
             $this->layout = $this->layout ?: LAYOUT;
-
         }
     }
 
@@ -65,7 +64,6 @@ class View
                 $logs->grep( 'UPDATE' ),
                 $logs->grep( 'DELETE' ),
             );
-            //debug($logs);
         }
     }
     public function getPart($file, $data = null)

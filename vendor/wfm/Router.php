@@ -35,14 +35,16 @@
      public static function dispatch($url)
      {
          $url = self::removeQueryString($url);
+
          if (self::matchRoute($url)) {
-             echo $controller = 'app\controllers\\' . self::$route['admin_prefix'] . self::$route['controller'] . 'Controller';
+             $controller = 'app\controllers\\' . self::$route['admin_prefix'] . self::$route['controller'] . 'Controller';
              if(class_exists($controller)){
                  /**
                   * @var Controller $controllerObject
                   */
                  $controllerObject = new $controller(self::$route);
                  $controllerObject->getModel();
+
 
                  $action = self::loverCamelCase(self::$route['action'] . 'Action');
                  if(method_exists($controllerObject, $action)){
@@ -65,7 +67,6 @@
 
 
              if (preg_match("#{$pattern}#", $url, $matches)) {
-                 //print_r($matches);
                  foreach ($matches as $k => $v){
                      if (is_string($k)){
                          $route[$k] = $v;

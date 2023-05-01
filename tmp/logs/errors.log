@@ -2968,3 +2968,109 @@
 =================
 [2023-05-01 13:52:54] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 60
 =================
+[2023-05-01 14:10:34] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/admin/MainController.php | Строка: 14
+=================
+[2023-05-01 14:15:37] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/MainController.php | Строка: 14
+=================
+[2023-05-01 14:15:38] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/MainController.php | Строка: 14
+=================
+[2023-05-01 14:16:32] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/MainController.php | Строка: 14
+=================
+[2023-05-01 14:16:42] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/MainController.php | Строка: 14
+=================
+[2023-05-01 14:17:14] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/admin/MainController.php | Строка: 14
+=================
+[2023-05-01 14:18:38] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/admin/MainController.php | Строка: 14
+=================
+[2023-05-01 14:38:23] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/admin/MainController.php | Строка: 14
+=================
+[2023-05-01 14:41:10] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/admin/MainController.php | Строка: 14
+=================
+[2023-05-01 14:41:18] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/admin/MainController.php | Строка: 14
+=================
+[2023-05-01 14:42:25] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/admin/MainController.php | Строка: 14
+=================
+[2023-05-01 14:47:17] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/admin/MainController.php | Строка: 14
+=================
+[2023-05-01 14:49:03] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/admin/MainController.php | Строка: 14
+=================
+[2023-05-01 14:49:04] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/admin/MainController.php | Строка: 14
+=================
+[2023-05-01 14:49:29] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/admin/MainController.php | Строка: 14
+=================
+[2023-05-01 14:49:30] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/admin/MainController.php | Строка: 14
+=================
+[2023-05-01 14:49:38] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/admin/MainController.php | Строка: 14
+=================
+[2023-05-01 14:49:43] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/admin/MainController.php | Строка: 14
+=================
+[2023-05-01 14:50:59] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/admin/MainController.php | Строка: 14
+=================
+[2023-05-01 14:51:00] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/admin/MainController.php | Строка: 14
+=================
+[2023-05-01 14:51:01] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/admin/MainController.php | Строка: 14
+=================
+[2023-05-01 14:51:23] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/admin/MainController.php | Строка: 14
+=================
+[2023-05-01 14:51:35] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/admin/MainController.php | Строка: 14
+=================
+[2023-05-01 14:54:35] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 13
+=================
+[2023-05-01 14:56:46] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 13
+=================
+[2023-05-01 14:57:55] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 13
+=================
+[2023-05-01 15:00:11] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 13
+=================
+[2023-05-01 15:00:19] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 13
+=================
+[2023-05-01 15:03:02] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 13
+=================
+[2023-05-01 15:03:10] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 13
+=================
+[2023-05-01 15:15:13] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 13
+=================
+[2023-05-01 15:15:25] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 13
+=================
+[2023-05-01 15:16:44] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 13
+=================
+[2023-05-01 15:23:16] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 13
+=================
+[2023-05-01 15:23:29] Текст ошибки: Call to a member function get_names() on null | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 13
+=================
+[2023-05-01 15:24:33] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 13
+=================
+[2023-05-01 15:27:28] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 13
+=================
+[2023-05-01 15:27:29] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 13
+=================
+[2023-05-01 15:27:30] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 13
+=================
+[2023-05-01 15:36:59] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 12
+=================
+[2023-05-01 15:37:04] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 12
+=================
+[2023-05-01 15:37:13] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 12
+=================
+[2023-05-01 15:38:18] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 12
+=================
+[2023-05-01 15:42:42] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 12
+=================
+[2023-05-01 15:42:59] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 12
+=================
+[2023-05-01 15:43:13] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 12
+=================
+[2023-05-01 15:45:19] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 12
+=================
+[2023-05-01 15:45:29] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 12
+=================
+[2023-05-01 15:45:55] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 12
+=================
+[2023-05-01 15:45:57] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 12
+=================
+[2023-05-01 15:51:00] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/admin/MainController.php | Строка: 14
+=================
+[2023-05-01 15:51:51] Текст ошибки: Class "app\controllers\admin\R" not found | Файл: /var/www/html/my-framework.loc/app/controllers/admin/MainController.php | Строка: 15
+=================
+[2023-05-01 15:52:52] Текст ошибки: Class "app\controllers\admin\R" not found | Файл: /var/www/html/my-framework.loc/app/controllers/admin/MainController.php | Строка: 15
+=================

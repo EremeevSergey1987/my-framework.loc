@@ -1,4 +1,8 @@
 <h1>Hellow main/index</h1>
-<?php //=$test?>
 
-<?php print_r($names); ?>
+
+<?php if(!empty($names)): ?>
+    <?php foreach ($names as $name): ?>
+        <?= $name->id ?> => <?=$name->name ?> </br>
+    <?php endforeach; ?>
+<?php endif; ?>

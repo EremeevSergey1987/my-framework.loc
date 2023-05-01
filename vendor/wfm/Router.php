@@ -65,7 +65,7 @@
 
 
              if (preg_match("#{$pattern}#", $url, $matches)) {
-                 print_r($matches);
+                 //print_r($matches);
                  foreach ($matches as $k => $v){
                      if (is_string($k)){
                          $route[$k] = $v;

@@ -9,7 +9,7 @@ class Main extends Model
 {
     public function get_names(): array
     {
-        return R::findAll('name');
+        return R::findAll('users');
     }
 
 }

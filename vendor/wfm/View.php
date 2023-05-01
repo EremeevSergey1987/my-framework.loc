@@ -65,7 +65,7 @@ class View
                 $logs->grep( 'UPDATE' ),
                 $logs->grep( 'DELETE' ),
             );
-            debug($logs);
+            //debug($logs);
         }
     }
     public function getPart($file, $data = null)

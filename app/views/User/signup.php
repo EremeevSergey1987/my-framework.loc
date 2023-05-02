@@ -21,7 +21,6 @@
 </div>
 
 <form method="post">
-
     <div class="mb-3">
         <label for="name" class="form-label">Имя</label>
         <input name="name" type="text" class="form-control" id="name" placeholder="Иван" value="<?=get_field_value('name')?>">

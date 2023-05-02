@@ -3074,3 +3074,35 @@
 =================
 [2023-05-01 15:52:52] Текст ошибки: Class "app\controllers\admin\R" not found | Файл: /var/www/html/my-framework.loc/app/controllers/admin/MainController.php | Строка: 15
 =================
+[2023-05-02 02:11:17] Текст ошибки: No connection to db | Файл: /var/www/html/my-framework.loc/vendor/wfm/Db.php | Строка: 16
+=================
+[2023-05-02 02:11:18] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 58
+=================
+[2023-05-02 03:13:16] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 58
+=================
+[2023-05-02 03:15:57] Текст ошибки: Контроллер app\controllers\UserController не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 55
+=================
+[2023-05-02 03:20:12] Текст ошибки: Class "app\widgets\language\Language" not found | Файл: /var/www/html/my-framework.loc/app/controllers/AppController.php | Строка: 22
+=================
+[2023-05-02 03:20:30] Текст ошибки: Class "wfm\Language" not found | Файл: /var/www/html/my-framework.loc/app/controllers/AppController.php | Строка: 26
+=================
+[2023-05-02 03:20:45] Текст ошибки: Trying to access array offset on value of type null | Файл: /var/www/html/my-framework.loc/app/controllers/AppController.php | Строка: 31
+=================
+[2023-05-02 03:21:06] Текст ошибки: Trying to access array offset on value of type null | Файл: /var/www/html/my-framework.loc/app/controllers/AppController.php | Строка: 29
+=================
+[2023-05-02 03:21:22] Текст ошибки: Не найден вид /var/www/html/my-framework.loc/app/views/User/signup.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 34
+=================
+[2023-05-02 03:27:03] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 58
+=================
+[2023-05-02 03:45:23] Текст ошибки: Call to undefined function app\controllers\redirect() | Файл: /var/www/html/my-framework.loc/app/controllers/UserController.php | Строка: 14
+=================
+[2023-05-02 03:46:37] Текст ошибки: Call to undefined function app\controllers\http_redirect() | Файл: /var/www/html/my-framework.loc/app/controllers/UserController.php | Строка: 14
+=================
+[2023-05-02 03:46:46] Текст ошибки: Call to undefined function app\controllers\redirect() | Файл: /var/www/html/my-framework.loc/app/controllers/UserController.php | Строка: 14
+=================
+[2023-05-02 06:11:46] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'eremeev873333@bk.ru' for key 'users.email' | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
+=================
+[2023-05-02 06:11:59] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'eremeev87@bk.ru' for key 'users.email' | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
+=================
+[2023-05-02 06:22:14] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'file_storage.user' doesn't exist | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
+=================

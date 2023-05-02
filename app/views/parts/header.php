@@ -22,6 +22,7 @@
             <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
                 <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/file">Мои файлы</a>
                 <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/admin">Список пользователей</a>
+                <a href="/user/logout" class="btn btn-primary">Выход</a>
             </nav>
         </div>
 </header>

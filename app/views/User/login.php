@@ -3,11 +3,13 @@
     <p class="fs-5 text-body-secondary">Файловое хранилище — облачный сервис для хранения фото, видео и других файлов и обмена ими. Диск синхронизирует файлы между облачным хранилищем и компьютером.</p>
 </div>
 
+<pre>
 <?php if(isset($_SESSION)){
     print_r($_SESSION);
 } ?>
+</pre>
 
-<?php print_r($_POST); ?>
+
 
 <main class="row justify-content-center">
     <div class="w-50 p-3">

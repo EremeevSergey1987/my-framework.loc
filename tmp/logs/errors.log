@@ -3200,3 +3200,11 @@
 =================
 [2023-05-02 08:21:58] Текст ошибки: Undefined global variable $_SESSION | Файл: /var/www/html/my-framework.loc/app/views/Main/index.php | Строка: 7
 =================
+[2023-05-02 08:23:48] Текст ошибки: Undefined global variable $_SESSION | Файл: /var/www/html/my-framework.loc/app/views/Main/index.php | Строка: 7
+=================
+[2023-05-02 08:42:40] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 58
+=================
+[2023-05-02 08:42:42] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 58
+=================
+[2023-05-02 08:42:59] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 58
+=================

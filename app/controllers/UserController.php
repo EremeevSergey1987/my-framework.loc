@@ -50,10 +50,10 @@ class UserController extends AppController
 
     public function logoutAction()
     {
-        if(User::checkAuth()){
-            unset($_SESSION['user']);
-        }
-        header("Location: http://my-framework.loc/");
+//        if(User::checkAuth()){
+//            unset($_SESSION['user']);
+//        }
+//        header("Location: http://my-framework.loc/");
     }
 
 }

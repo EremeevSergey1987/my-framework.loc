@@ -26,6 +26,13 @@ class User extends AppModel
     {
         return isset($_SESSION['user']);
     }
+    public static function checkAuthRole(): bool
+    {
+        if($_SESSION['user']['role'] == 'admin'){
+            return false;
+        }
+        return true;
+    }
 
     public function checkUnique($text_error = ''): bool
     {

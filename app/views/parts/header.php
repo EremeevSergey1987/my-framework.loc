@@ -20,10 +20,16 @@
                 <span class="fs-4">Best File storage!</span>
             </a>
             <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-                <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/file">Мои файлы</a>
-                <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/admin">Список пользователей</a>
-                <a href="/user/signup" class="btn btn-primary">Регистрация</a>
-                <a href="/user/logout" class="btn btn-primary">Выход</a>
+                <?php if (empty($_SESSION['user'])): ?>
+                    <a href="/user/signup" class="me-3 py-2  btn btn-primary">Регистрация</a>
+                    <a href="/user/login" class="me-3 py-2 btn btn-warning">Вход</a>
+                <?php else: ?>
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/file">Мои файлы</a>
+                        <?php if ($_SESSION['user']['role'] == 'admin'): ?>
+                            <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/admin">Список пользователей</a>
+                        <?php endif; ?>
+                    <a href="/user/logout" class="me-3 py-2 btn btn-danger">Выход</a>
+                <?php endif; ?>
             </nav>
         </div>
 </header>

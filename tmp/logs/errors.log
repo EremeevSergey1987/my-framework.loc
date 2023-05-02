@@ -3208,3 +3208,35 @@
 =================
 [2023-05-02 08:42:59] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 58
 =================
+[2023-05-02 12:06:09] Текст ошибки: No connection to db | Файл: /var/www/html/my-framework.loc/vendor/wfm/Db.php | Строка: 16
+=================
+[2023-05-02 12:06:10] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 58
+=================
+[2023-05-02 12:32:45] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 58
+=================
+[2023-05-02 12:51:51] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 58
+=================
+[2023-05-02 13:03:02] Текст ошибки: session_start(): Ignoring session_start() because a session is already active | Файл: /var/www/html/my-framework.loc/app/views/parts/header.php | Строка: 2
+=================
+[2023-05-02 13:03:11] Текст ошибки: session_start(): Ignoring session_start() because a session is already active | Файл: /var/www/html/my-framework.loc/app/views/parts/header.php | Строка: 2
+=================
+[2023-05-02 13:03:22] Текст ошибки: session_start(): Ignoring session_start() because a session is already active | Файл: /var/www/html/my-framework.loc/app/views/parts/header.php | Строка: 2
+=================
+[2023-05-02 13:16:37] Текст ошибки: Не найден вид /var/www/html/my-framework.loc/app/views/User/logout.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 34
+=================
+[2023-05-02 13:26:54] Текст ошибки: Не найден вид /var/www/html/my-framework.loc/app/views/User/logout.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 34
+=================
+[2023-05-02 13:27:10] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/views/parts/header.php | Строка: 23
+=================
+[2023-05-02 13:59:18] Текст ошибки: Не найден вид /var/www/html/my-framework.loc/app/views/User/logout.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 34
+=================
+[2023-05-02 13:59:29] Текст ошибки: Не найден вид /var/www/html/my-framework.loc/app/views/User/logout.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 34
+=================
+[2023-05-02 14:08:52] Текст ошибки: Не найден вид /var/www/html/my-framework.loc/app/views/User/logout.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 34
+=================
+[2023-05-02 14:09:19] Текст ошибки: Не найден вид /var/www/html/my-framework.loc/app/views/User/logout.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 34
+=================
+[2023-05-02 14:10:15] Текст ошибки: Не найден вид /var/www/html/my-framework.loc/app/views/User/logout.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 34
+=================
+[2023-05-02 14:12:01] Текст ошибки: Не найден вид /var/www/html/my-framework.loc/app/views/User/logout.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 34
+=================

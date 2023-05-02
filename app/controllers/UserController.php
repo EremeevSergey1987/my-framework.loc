@@ -28,7 +28,7 @@ class UserController extends AppController
             }
             //header("Location: http://my-framework.loc/file");
         }
-        $this->setMeta('Регистрация', 'Регистрация', 'Регистрация');
+        $this->setMeta('Регистрация!', 'Регистрация', 'Регистрация');
     }
 
     public function loginAction ()
@@ -38,10 +38,10 @@ class UserController extends AppController
         if (!empty($_POST)){
             if($this->model->login()){
                 $_SESSION['success'] = 'Вы успешно авторизованы';
-                header("Location: http://my-framework.loc/file");
+                //header("Location: http://my-framework.loc/file");
             } else {
                 $_SESSION['errors'] = 'Ошибка авторизации';
-                header("Location: http://my-framework.loc/");
+                //header("Location: http://my-framework.loc/");
             }
         }
 

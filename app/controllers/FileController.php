@@ -14,5 +14,9 @@ class FileController extends Controller
         $this->setMeta('Files', 'Files', 'Files');
         $this->set(compact('names'));
     }
+    public function loginAction()
+    {
+        $this->setMeta('Files', 'Files', 'Files');
+    }
 
 }

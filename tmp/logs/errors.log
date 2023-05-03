@@ -3252,3 +3252,27 @@
 =================
 [2023-05-03 03:09:56] Текст ошибки: Undefined array key "title" | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 49
 =================
+[2023-05-03 07:14:29] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 58
+=================
+[2023-05-03 07:18:22] Текст ошибки: Контроллер app\controllers\admin\UserController не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 55
+=================
+[2023-05-03 07:19:08] Текст ошибки: Контроллер app\controllers\admin\UserController не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 55
+=================
+[2023-05-03 07:19:32] Текст ошибки: Контроллер app\controllers\admin\UserController не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 55
+=================
+[2023-05-03 07:20:09] Текст ошибки: Call to undefined method app\controllers\admin\UserController::getModel() | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 45
+=================
+[2023-05-03 07:20:56] Текст ошибки: Метод app\controllers\admin\UserController::indexAction не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 52
+=================
+[2023-05-03 07:21:17] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 15
+=================
+[2023-05-03 07:23:03] Текст ошибки: Не найден вид /var/www/html/my-framework.loc/app/views/admin/User/index.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 34
+=================
+[2023-05-03 07:23:47] Текст ошибки: Не найден вид /var/www/html/my-framework.loc/app/views/admin/User/index.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 34
+=================
+[2023-05-03 07:25:51] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 58
+=================
+[2023-05-03 08:01:55] Текст ошибки: Too few arguments to function RedBeanPHP\Facade::load(), 0 passed in /var/www/html/my-framework.loc/vendor/wfm/Model.php on line 64 and at least 2 expected | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php | Строка: 760
+=================
+[2023-05-03 08:02:36] Текст ошибки: Too few arguments to function RedBeanPHP\Facade::load(), 0 passed in /var/www/html/my-framework.loc/vendor/wfm/Model.php on line 64 and at least 2 expected | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php | Строка: 760
+=================

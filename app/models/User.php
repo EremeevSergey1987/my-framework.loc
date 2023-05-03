@@ -19,6 +19,7 @@ class User extends AppModel
             ['password', 6],
             ['name', 2],
         ],
+        'optional' => ['email', 'password'],
 
     ];
 

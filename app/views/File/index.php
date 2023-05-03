@@ -1,5 +1,5 @@
 <h1>Список файлов</h1>
-
+<?php if(isset($_SESSION['success_signup_login'])){echo '<p class="text-success">' . $_SESSION['success_signup_login'] . '</p>'; }?>
 <table class="table">
     <thead>
     <tr>

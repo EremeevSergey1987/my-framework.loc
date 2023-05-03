@@ -3240,3 +3240,15 @@
 =================
 [2023-05-02 14:12:01] Текст ошибки: Не найден вид /var/www/html/my-framework.loc/app/views/User/logout.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 34
 =================
+[2023-05-03 03:01:09] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 58
+=================
+[2023-05-03 03:01:23] Текст ошибки: Не найден вид /var/www/html/my-framework.loc/app/views/User/logout.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 34
+=================
+[2023-05-03 03:03:52] Текст ошибки: Не найден вид /var/www/html/my-framework.loc/app/views/User/logout.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 34
+=================
+[2023-05-03 03:08:00] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 58
+=================
+[2023-05-03 03:08:57] Текст ошибки: Не найден вид /var/www/html/my-framework.loc/app/views/User/logout.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 34
+=================
+[2023-05-03 03:09:56] Текст ошибки: Undefined array key "title" | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 49
+=================

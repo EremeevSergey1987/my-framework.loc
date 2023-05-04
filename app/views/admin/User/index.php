@@ -11,11 +11,12 @@
     </thead>
     <tbody>
 
+
     <?php if(!empty($names)): ?>
         <?php foreach ($names as $name): ?>
             <tr>
                 <th scope="row"><?= $name->id ?></th>
-                <td><?=$name->name ?></td>
+                <td><a href="/admin/user/credentials/<?=$name->id ?>"> <?=$name->name ?></a></td>
                 <td><?=$name->email ?></td>
                 <td><?=$name->role ?></td>
                 <td>

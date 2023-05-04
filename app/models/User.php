@@ -13,27 +13,13 @@ class User extends AppModel
     ];
 
     public array $rules = [
-        //'optional' => ['email', 'password'],
-        'required' => [
-            ['email', true],
-            ['password', true],
-            ['name'],
-
-        ],
-
-
-        //'required' => ['email', 'password', 'name', ],
+        'required' => ['email', 'password', 'name', ],
         'email' => ['email'],
+        'optional' => ['password', 'email',],
         'lengthMin' => [
             ['password', 6],
             ['name', 2],
         ],
-
-        'optional' => [
-            ['email', true]
-        ]
-
-
 
     ];
 

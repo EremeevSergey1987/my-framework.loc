@@ -8,41 +8,40 @@ use wfm\App;
  */
 class UserController extends AppController
 {
-    public function   credentialsAction()
+    public function credentialsAction()
     {
-        if(!User::checkAuth()){header("Location: http://my-framework.loc/");}
+        //if(User::checkAuth()){header("Location: http://my-framework.loc/");}
 
-
-        debug($_POST);
-        //die;
-        print_r($_POST['password']);
-
-        if(!empty($_POST)){
-            if(empty($_POST['password'])){
-                unset($_POST['password']);
-            }
-
+        if (!empty($_POST)) {
             $this->model->load();
-            if(!$this->model->validate($this->model->attributes)){
+
+            if (empty($this->model->attributes['password'])) {
+                unset($this->model->attributes['password']);
+            }
+            unset($this->model->attributes['email']);
+
+            if (!$this->model->validate($this->model->attributes)) {
                 $this->model->getErrors();
             } else {
-                if (!empty($this->model->attributes['password'])){
+                if (!empty($this->model->attributes['password'])) {
                     $this->model->attributes['password'] = password_hash($this->model->attributes['password'], PASSWORD_DEFAULT);
                 }
-                if ($this->model->update('users', $_SESSION['user']['id'])){
-                    $_SESSION['success_signup_login'] = 'Пользователь обновлен!';
-                    //header("Location: http://my-framework.loc/file");
+
+                if ($this->model->update('users', $_SESSION['user']['id'])) {
+                    $_SESSION['success_signup_login'] = 'Пользователь добавлен! И авторизован!';
                     foreach ($this->model->attributes as $k => $v) {
-                        if (!empty($v) && $k != 'password'){
+                        if (!empty($v) && $k != 'password') {
                             $_SESSION['user'][$k] = $v;
                         }
                     }
                 } else {
-                    $_SESSION['errors'] = 'Ошибка обновления пользователя!';
+                    $_SESSION['errors'] = 'Ошибка добавления пользователя!';
                 }
             }
+            //header("Location: http://my-framework.loc/file");
         }
-        $this->setMeta('Обновление!', 'Обновление', 'Обновление');
+
+        $this->setMeta('Регистрация!', 'Регистрация', 'Регистрация');
     }
 
 

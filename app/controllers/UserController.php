@@ -11,20 +11,24 @@ class UserController extends AppController
     public function   credentialsAction()
     {
         if(!User::checkAuth()){header("Location: http://my-framework.loc/");}
+
+
+        debug($_POST);
+        //die;
+        print_r($_POST['password']);
+
         if(!empty($_POST)){
             if(empty($_POST['password'])){
                 unset($_POST['password']);
             }
 
             $this->model->load();
-
             if(!$this->model->validate($this->model->attributes)){
                 $this->model->getErrors();
             } else {
                 if (!empty($this->model->attributes['password'])){
                     $this->model->attributes['password'] = password_hash($this->model->attributes['password'], PASSWORD_DEFAULT);
                 }
-
                 if ($this->model->update('users', $_SESSION['user']['id'])){
                     $_SESSION['success_signup_login'] = 'Пользователь обновлен!';
                     //header("Location: http://my-framework.loc/file");

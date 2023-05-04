@@ -16,10 +16,19 @@
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
             <?php endif; ?>
+
+            <?php if (!empty($_SESSION['success_signup_login'])): ?>
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <?=$_SESSION['success_signup_login']; unset($_SESSION['success_signup_login']); ?>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            <?php endif; ?>
         </div>
     </div>
 </div>
-//$2y$10$L1yp.nYac2jD//BN69TDsuD7lLMC1xJb2PZYh7gxOROmFUlsIInrG
+
+
+
 <form method="post">
     <div class="mb-3">
         <label for="name" class="form-label">Имя</label>
@@ -33,7 +42,7 @@
 
     <div class="mb-3">
         <label for="password" class="form-label">Пароль</label>
-        <input name="password" type="password" class="form-control" id="password" placeholder="Пароль" value="<?=h($_SESSION['user']['password'])?>">
+        <input name="password" type="password" class="form-control" id="password" placeholder="Укажите пароль если хотите его поменять" value="">
     </div>
 
     <div class="mb-3">

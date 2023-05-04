@@ -3276,3 +3276,9 @@
 =================
 [2023-05-03 08:02:36] Текст ошибки: Too few arguments to function RedBeanPHP\Facade::load(), 0 passed in /var/www/html/my-framework.loc/vendor/wfm/Model.php on line 64 and at least 2 expected | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php | Строка: 760
 =================
+[2023-05-04 01:24:24] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 58
+=================
+[2023-05-04 02:11:00] Текст ошибки: syntax error, unexpected variable "$this", expecting "function" or "const" | Файл: /var/www/html/my-framework.loc/app/controllers/UserController.php | Строка: 45
+=================
+[2023-05-04 02:11:10] Текст ошибки: Undefined array key "password" | Файл: /var/www/html/my-framework.loc/app/controllers/UserController.php | Строка: 18
+=================

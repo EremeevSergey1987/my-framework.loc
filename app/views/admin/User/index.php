@@ -16,7 +16,7 @@
         <?php foreach ($names as $name): ?>
             <tr>
                 <th scope="row"><?= $name->id ?></th>
-                <td><a href="/admin/user/credentials/<?=$name->id ?>"> <?=$name->name ?></a></td>
+                <td><a href="/admin/user/credentials?id=<?=$name->id ?>"> <?=$name->name ?></a></td>
                 <td><?=$name->email ?></td>
                 <td><?=$name->role ?></td>
                 <td>

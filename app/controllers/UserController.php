@@ -12,6 +12,8 @@ class UserController extends AppController
     {
         //if(User::checkAuth()){header("Location: http://my-framework.loc/");}
 
+
+
         if (!empty($_POST)) {
             $this->model->load();
 

@@ -22,13 +22,13 @@ class UserController extends Controller
     public function credentialsAction()
     {
         //if(User::checkAuth()){header("Location: http://my-framework.loc/");}
-
+        debug($_SESSION);
+        debug($_POST);
+        debug($_GET);
         if (!empty($_POST)) {
             $this->model->load();
 
-            debug($_SESSION);
-            debug($_POST);
-            debug($_GET);
+
 
             if (empty($this->model->attributes['password'])) {
                 unset($this->model->attributes['password']);
@@ -56,6 +56,6 @@ class UserController extends Controller
             //header("Location: http://my-framework.loc/file");
         }
 
-        $this->setMeta('Регистрация!', 'Регистрация', 'Регистрация');
+        $this->setMeta('Регистрация!!!', 'Регистрация', 'Регистрация');
     }
 }

@@ -3282,6 +3282,10 @@
 =================
 [2023-05-04 02:11:10] Текст ошибки: Undefined array key "password" | Файл: /var/www/html/my-framework.loc/app/controllers/UserController.php | Строка: 18
 =================
+[2023-05-04 05:43:48] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 58
+=================
+[2023-05-04 05:43:50] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 58
+=================
 [2023-05-04 04:26:40] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 58
 =================
 [2023-05-04 04:26:41] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'file_storage.user' doesn't exist | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
@@ -3321,4 +3325,32 @@
 [2023-05-04 04:50:48] Текст ошибки: preg_match(): Compilation failed: two named subpatterns have the same name (PCRE2_DUPNAMES not set) at offset 66 | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 67
 =================
 [2023-05-04 04:52:01] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 58
+=================
+[2023-05-04 05:55:39] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 58
+=================
+[2023-05-04 05:56:43] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 58
+=================
+[2023-05-04 06:00:50] Текст ошибки: Контроллер app\controllers\AdminController не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 55
+=================
+[2023-05-04 06:01:28] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 58
+=================
+[2023-05-04 06:05:49] Текст ошибки: Контроллер app\controllers\AdminController не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 55
+=================
+[2023-05-04 06:09:41] Текст ошибки: Контроллер app\controllers\admin\UseController не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 56
+=================
+[2023-05-04 06:16:28] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-04 06:16:54] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-04 06:27:50] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-04 06:37:18] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-04 06:38:59] Текст ошибки: Контроллер app\controllers\admin\UseController не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 56
+=================
+[2023-05-04 06:38:59] Текст ошибки: Контроллер app\controllers\admin\UseController не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 56
+=================
+[2023-05-04 06:41:05] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-04 06:41:05] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
 =================

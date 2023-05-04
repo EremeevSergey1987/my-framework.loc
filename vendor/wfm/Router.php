@@ -34,6 +34,7 @@
 
      public static function dispatch($url)
      {
+         print_r($url);
          $url = self::removeQueryString($url);
          if (self::matchRoute($url)) {
              $controller = 'app\controllers\\' . self::$route['admin_prefix'] . self::$route['controller'] . 'Controller';

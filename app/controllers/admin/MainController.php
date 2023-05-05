@@ -18,5 +18,6 @@ class MainController extends Controller
         $one_name = R::getRow( 'SELECT * FROM users WHERE id = 2');
         $this->setMeta('Admin', 'Admin', 'Admin');
         $this->set(compact('names'));
+
     }
 }

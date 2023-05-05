@@ -3354,3 +3354,29 @@
 =================
 [2023-05-04 06:41:05] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
 =================
+[2023-05-05 04:43:28] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/models/User.php | Строка: 32
+=================
+[2023-05-05 04:43:30] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-05 05:00:01] Текст ошибки: Контроллер app\controllers\admin\UseController не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 56
+=================
+[2023-05-05 05:00:05] Текст ошибки: Контроллер app\controllers\admin\UseController не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 56
+=================
+[2023-05-05 05:00:06] Текст ошибки: Контроллер app\controllers\admin\UseController не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 56
+=================
+[2023-05-05 05:00:37] Текст ошибки: Контроллер app\controllers\admin\UseController не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 56
+=================
+[2023-05-05 06:41:03] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-05 06:41:11] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/models/User.php | Строка: 32
+=================
+[2023-05-05 06:41:14] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/models/User.php | Строка: 32
+=================
+[2023-05-05 06:44:12] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/models/User.php | Строка: 32
+=================
+[2023-05-05 07:07:35] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-05 07:07:39] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/models/User.php | Строка: 32
+=================
+[2023-05-05 07:08:14] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/models/User.php | Строка: 32
+=================

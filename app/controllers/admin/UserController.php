@@ -76,4 +76,11 @@ class UserController extends AppController
 
         $this->setMeta('Регистрация!!!', 'Регистрация', 'Регистрация');
     }
+
+    public function dellAction()
+    {
+        $id = $_GET['id'];
+        $this->model->dell_user($id);
+        header("Location: http://my-framework.loc/admin/");
+    }
 }

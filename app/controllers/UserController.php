@@ -10,9 +10,7 @@ class UserController extends AppController
 {
     public function editAction()
     {
-        //if(User::checkAuth()){header("Location: http://my-framework.loc/");}
-
-
+        if(User::checkAuth()){header("Location: http://my-framework.loc/");}
 
         if (!empty($_POST)) {
             $this->model->load();

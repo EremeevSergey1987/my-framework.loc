@@ -28,13 +28,16 @@
              $params = explode('?', $url, 2);
              if (false === str_contains($params[0], '=')){
                   return rtrim($params[0], '/');
+
              }
          }
+
          return '';
      }
 
      public static function dispatch($url)
      {
+
 
          $url = self::removeQueryString($url);
 

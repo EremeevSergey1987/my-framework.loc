@@ -3660,3 +3660,115 @@
 =================
 [2023-05-08 14:30:09] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 63
 =================
+[2023-05-08 15:16:46] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/models/User.php | Строка: 32
+=================
+[2023-05-08 15:16:52] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/models/User.php | Строка: 32
+=================
+[2023-05-08 15:16:56] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/models/User.php | Строка: 32
+=================
+[2023-05-08 15:22:30] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 63
+=================
+[2023-05-08 15:22:37] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 63
+=================
+[2023-05-08 15:23:23] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 63
+=================
+[2023-05-08 15:24:53] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 63
+=================
+[2023-05-08 15:25:38] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 64
+=================
+[2023-05-08 15:25:48] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 64
+=================
+[2023-05-08 15:26:07] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 65
+=================
+[2023-05-08 15:26:08] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 65
+=================
+[2023-05-08 15:26:10] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 65
+=================
+[2023-05-08 15:26:28] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:26:38] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 67
+=================
+[2023-05-08 15:27:07] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:27:57] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:28:04] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:30:18] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:30:22] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:30:27] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:30:36] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:30:43] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:30:45] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:30:46] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:35:34] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:36:41] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:38:58] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:39:09] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:39:39] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:39:41] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:40:15] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:40:47] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:40:49] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:40:50] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:41:18] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:41:21] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:43:01] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:43:07] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:44:03] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:44:05] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:44:15] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:46:19] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:46:43] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:47:50] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:47:52] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:48:08] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:48:14] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:48:22] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:50:53] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:52:46] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:53:02] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:54:43] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:54:44] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:54:48] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:55:31] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 15:55:36] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================

@@ -8,7 +8,7 @@ use wfm\App;
  */
 class UserController extends AppController
 {
-    public function credentialsAction()
+    public function editAction()
     {
         //if(User::checkAuth()){header("Location: http://my-framework.loc/");}
 
@@ -16,6 +16,7 @@ class UserController extends AppController
 
         if (!empty($_POST)) {
             $this->model->load();
+            
 
             if (empty($this->model->attributes['password'])) {
                 unset($this->model->attributes['password']);

@@ -19,6 +19,7 @@ abstract class Model
     public function load($post = true)
     {
         $data = $post ? $_POST : $_GET;
+        debug($data);
         foreach ($this->attributes as $name => $value){
             if(isset($data[$name])){
                 $this->attributes[$name] = $data[$name];

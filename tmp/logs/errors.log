@@ -3380,3 +3380,283 @@
 =================
 [2023-05-05 07:08:14] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/models/User.php | Строка: 32
 =================
+[2023-05-06 05:00:53] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:00:54] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:01:17] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:01:18] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:01:58] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:01:59] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:01:59] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:02:56] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:04:09] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:04:18] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:25:34] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:26:19] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:27:57] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:29:04] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:40:37] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:41:09] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:41:24] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:41:49] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:42:54] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:42:55] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:43:01] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:43:10] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:43:18] Текст ошибки: Метод app\controllers\admin\UserController::editAction не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 53
+=================
+[2023-05-06 05:44:54] Текст ошибки: Метод app\controllers\admin\UserController::fgdsfgdfgAction не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 53
+=================
+[2023-05-06 05:44:59] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:45:02] Текст ошибки: Метод app\controllers\admin\UserController::fgdsfgdfgAction не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 53
+=================
+[2023-05-06 05:56:36] Текст ошибки: Контроллер app\controllers\admin\UserController не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 56
+=================
+[2023-05-06 05:58:08] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:58:11] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-06 05:58:34] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 09:27:39] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/views/admin/User/edit.php | Строка: 35
+=================
+[2023-05-08 09:27:40] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 09:27:42] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/models/User.php | Строка: 32
+=================
+[2023-05-08 09:27:50] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 09:28:25] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 09:28:25] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 09:28:26] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 09:28:27] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 09:42:12] Текст ошибки: Call to undefined method app\models\admin\User::get_names() | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 22
+=================
+[2023-05-08 10:09:53] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 10:14:07] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 10:14:22] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 10:15:32] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 10:15:54] Текст ошибки: Call to undefined function app\controllers\admin\get() | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 31
+=================
+[2023-05-08 10:16:08] Текст ошибки: Контроллер app\controllers\admin\UsersController не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 56
+=================
+[2023-05-08 10:16:15] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 10:16:21] Текст ошибки: Метод app\controllers\admin\UserController::sdfsdfsAction не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 53
+=================
+[2023-05-08 10:16:25] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 10:18:25] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 10:18:38] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 10:19:36] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 10:19:42] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 10:20:15] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 10:20:17] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 10:20:25] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 10:20:28] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 10:21:36] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 10:21:41] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 10:21:45] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 10:21:52] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 10:22:44] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 10:23:22] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 60
+=================
+[2023-05-08 10:23:28] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 60
+=================
+[2023-05-08 10:23:29] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 60
+=================
+[2023-05-08 10:23:29] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 60
+=================
+[2023-05-08 10:24:27] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 62
+=================
+[2023-05-08 10:24:53] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 62
+=================
+[2023-05-08 10:25:42] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 62
+=================
+[2023-05-08 10:25:43] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 62
+=================
+[2023-05-08 10:25:43] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 62
+=================
+[2023-05-08 10:25:44] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 62
+=================
+[2023-05-08 10:25:45] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 62
+=================
+[2023-05-08 10:25:46] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 62
+=================
+[2023-05-08 10:26:36] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 62
+=================
+[2023-05-08 10:26:44] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 62
+=================
+[2023-05-08 10:28:02] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 62
+=================
+[2023-05-08 10:28:29] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 62
+=================
+[2023-05-08 10:28:30] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 62
+=================
+[2023-05-08 10:28:30] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 62
+=================
+[2023-05-08 10:28:54] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 62
+=================
+[2023-05-08 10:29:03] Текст ошибки: Контроллер app\controllers\admin\UsersController не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
+[2023-05-08 10:29:15] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 62
+=================
+[2023-05-08 10:29:18] Текст ошибки: Call to undefined method app\models\admin\User::getUser() | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 33
+=================
+[2023-05-08 10:31:03] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 62
+=================
+[2023-05-08 10:31:09] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 62
+=================
+[2023-05-08 10:31:14] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 62
+=================
+[2023-05-08 10:32:13] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 10:32:14] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 10:32:18] Текст ошибки: Call to undefined method app\models\admin\User::getUser() | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 33
+=================
+[2023-05-08 10:32:22] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 10:32:27] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 10:32:46] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 10:33:03] Текст ошибки: Call to undefined method app\models\admin\User::getUser() | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 33
+=================
+[2023-05-08 10:33:28] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 10:33:28] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 10:33:30] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 10:33:30] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 10:33:34] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-08 10:33:42] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 62
+=================
+[2023-05-08 10:33:44] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 62
+=================
+[2023-05-08 10:49:32] Текст ошибки: Call to undefined method app\models\admin\User::getUser() | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 33
+=================
+[2023-05-08 10:59:19] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 51
+=================
+[2023-05-08 11:00:15] Текст ошибки: Call to undefined method app\models\admin\User::getUser() | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 33
+=================
+[2023-05-08 11:01:44] Текст ошибки: Undefined array key "address" | Файл: /var/www/html/my-framework.loc/app/views/admin/User/view.php | Строка: 22
+=================
+[2023-05-08 11:04:38] Текст ошибки: Call to undefined function app\controllers\admin\get() | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 31
+=================
+[2023-05-08 11:07:13] Текст ошибки: Call to undefined function app\controllers\admin\get() | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 31
+=================
+[2023-05-08 11:07:17] Текст ошибки: Call to undefined function app\controllers\admin\get() | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 31
+=================
+[2023-05-08 11:07:21] Текст ошибки: Call to undefined function app\controllers\admin\get() | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 31
+=================
+[2023-05-08 11:12:52] Текст ошибки: Call to undefined function app\controllers\admin\get() | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 35
+=================
+[2023-05-08 11:13:00] Текст ошибки: Call to undefined function app\controllers\admin\get() | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 35
+=================
+[2023-05-08 11:13:05] Текст ошибки: Call to undefined function app\controllers\admin\get() | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 35
+=================
+[2023-05-08 11:19:04] Текст ошибки: Call to undefined function app\controllers\admin\get() | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 37
+=================
+[2023-05-08 11:19:43] Текст ошибки: Call to undefined function app\controllers\admin\get() | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 37
+=================
+[2023-05-08 11:19:47] Текст ошибки: Call to undefined function app\controllers\admin\get() | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 37
+=================
+[2023-05-08 11:20:07] Текст ошибки: Call to undefined function app\controllers\admin\get() | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 37
+=================
+[2023-05-08 11:20:19] Текст ошибки: Call to undefined function app\controllers\admin\get() | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 37
+=================
+[2023-05-08 11:20:31] Текст ошибки: Array callback must have exactly two elements | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 36
+=================
+[2023-05-08 11:20:49] Текст ошибки: Array callback must have exactly two elements | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 36
+=================
+[2023-05-08 11:21:52] Текст ошибки: Array callback must have exactly two elements | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 36
+=================
+[2023-05-08 11:21:54] Текст ошибки: Array callback must have exactly two elements | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 36
+=================
+[2023-05-08 11:21:55] Текст ошибки: Array callback must have exactly two elements | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 36
+=================
+[2023-05-08 11:22:17] Текст ошибки: Array callback must have exactly two elements | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 36
+=================
+[2023-05-08 11:22:48] Текст ошибки: Array callback must have exactly two elements | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 35
+=================
+[2023-05-08 11:22:49] Текст ошибки: Array callback must have exactly two elements | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 35
+=================
+[2023-05-08 11:23:23] Текст ошибки: Call to undefined function app\controllers\admin\get() | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 36
+=================
+[2023-05-08 11:23:27] Текст ошибки: Call to undefined function app\controllers\admin\get() | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 36
+=================
+[2023-05-08 11:29:19] Текст ошибки: Call to undefined function app\controllers\admin\get() | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 35
+=================
+[2023-05-08 11:29:32] Текст ошибки: Array callback must have exactly two elements | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 35
+=================
+[2023-05-08 11:29:34] Текст ошибки: Array callback must have exactly two elements | Файл: /var/www/html/my-framework.loc/app/controllers/admin/UserController.php | Строка: 35
+=================
+[2023-05-08 11:30:41] Текст ошибки: Array to string conversion | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/QueryWriter/AQueryWriter.php | Строка: 233
+=================
+[2023-05-08 11:30:43] Текст ошибки: Array to string conversion | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/QueryWriter/AQueryWriter.php | Строка: 233
+=================
+[2023-05-08 11:30:48] Текст ошибки: Array to string conversion | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/QueryWriter/AQueryWriter.php | Строка: 233
+=================
+[2023-05-08 11:30:53] Текст ошибки: Array to string conversion | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/QueryWriter/AQueryWriter.php | Строка: 233
+=================
+[2023-05-08 11:37:47] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 63
+=================
+[2023-05-08 13:54:04] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/views/admin/User/edit.php | Строка: 34
+=================
+[2023-05-08 13:54:04] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 63
+=================
+[2023-05-08 13:54:09] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/views/admin/User/edit.php | Строка: 34
+=================
+[2023-05-08 14:05:35] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 63
+=================
+[2023-05-08 14:13:28] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 63
+=================
+[2023-05-08 14:30:09] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 63
+=================

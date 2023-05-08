@@ -27,6 +27,8 @@
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/file">Мои файлы</a>
                         <?php if ($_SESSION['user']['role'] == 'admin'): ?>
                             <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/admin/">Список пользователей</a>
+                        <?php else:?>
+                            <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="admin/user/edit">Редактировать мой профиль</a>
                         <?php endif; ?>
                     <a href="/user/logout" class="me-3 py-2 btn btn-danger">Выход</a>
                 <?php endif; ?>

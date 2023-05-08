@@ -23,8 +23,9 @@
 
      protected static function removeQueryString($url)
      {
+
          if($url){
-             $params = explode('&', $url, 2);
+             $params = explode('?', $url, 2);
              if (false === str_contains($params[0], '=')){
                   return rtrim($params[0], '/');
              }
@@ -34,8 +35,11 @@
 
      public static function dispatch($url)
      {
-         print_r($url);
+
          $url = self::removeQueryString($url);
+
+
+
          if (self::matchRoute($url)) {
              $controller = 'app\controllers\\' . self::$route['admin_prefix'] . self::$route['controller'] . 'Controller';
              if(class_exists($controller)){
@@ -64,6 +68,7 @@
      {
          foreach (self::$routes as $pattern => $route ){
 
+             //debug(self::$routes);
 
              if (preg_match("#{$pattern}#", $url, $matches)) {
                  foreach ($matches as $k => $v){

@@ -3870,3 +3870,27 @@
 =================
 [2023-05-09 07:56:56] Текст ошибки: Undefined array key "image" | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 30
 =================
+[2023-05-09 08:22:52] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 08:23:09] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 08:23:23] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 08:23:28] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 08:38:01] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 08:40:56] Текст ошибки: move_uploaded_file(/var/www/html/my-framework.loc/public/files/upload/0001.png): Failed to open stream: No such file or directory | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 27
+=================
+[2023-05-09 08:51:20] Текст ошибки: Call to undefined function mb_eregi_replace() | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 89
+=================
+[2023-05-09 08:54:41] Текст ошибки: Undefined variable $name | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 110
+=================
+[2023-05-09 08:56:24] Текст ошибки: Call to undefined function mb_eregi_replace() | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 89
+=================
+[2023-05-09 09:39:15] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 09:42:49] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 09:42:58] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================

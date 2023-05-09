@@ -1,5 +1,17 @@
 <h1>Список файлов</h1>
-<?php if(isset($_SESSION['success_signup_login'])){echo '<p class="text-success">' . $_SESSION['success_signup_login'] . '</p>'; }?>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <?php if (!empty($_SESSION['success_signup_login'])): ?>
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <?=$_SESSION['success_signup_login']; unset($_SESSION['success_signup_login']); ?>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            <?php endif; ?>
+        </div>
+    </div>
+</div>
 
 <div class="container">
     <div class="row">

@@ -15,19 +15,10 @@ class UserController extends AppController
 {
     public function indexAction()
     {
-//        $page = get('page');
-//        $perpage = 1;
-//        $total = R::count('users');
-//        $pagination = new Pagination($page, $perpage, $total);
-//        $start = $pagination->getStart();
-
         if(User::checkAuthRole()){header("Location: http://my-framework.loc/");}
-
         $users = $this->model->get_users();
-        //$one_name = R::getRow( 'SELECT * FROM users WHERE id = 2');
         $this->setMeta('Список пользователей', 'Admin', 'Admin');
         $this->set(compact('users'));
-
     }
 
     public function viewAction()
@@ -44,6 +35,11 @@ class UserController extends AppController
     public function editAction()
     {
         //if(User::checkAuth()){header("Location: http://my-framework.loc/");}
+        if(isset($_GET['id']))
+        {
+            $id = $_GET['id'];
+            $user = $this->model->get_user($id);
+        }
 
 
         if (!empty($_POST)) {
@@ -60,20 +56,30 @@ class UserController extends AppController
                     $this->model->attributes['password'] = password_hash($this->model->attributes['password'], PASSWORD_DEFAULT);
                 }
 
-                if ($this->model->update('users', $_SESSION['user']['id'])) {
-                    $_SESSION['success_signup_login'] = 'Пользователь обновлен!';
+                if($_SESSION['user']['role'] == 'admin'){
+                    $user_id = $_GET['id'];
+                } else {
+                    $user_id = $_SESSION['user']['id'];
+                }
+
+                if ($this->model->update('users', $user_id)) {
+
                     foreach ($this->model->attributes as $k => $v) {
                         if (!empty($v) && $k != 'password') {
                             $_SESSION['user'][$k] = $v;
                         }
                     }
+                    //header("Location: http://my-framework.loc/admin/user/edit?id={$id}");
+                    $_SESSION['success_signup_login'] = 'Пользователь обновлен!';
                 } else {
                     $_SESSION['errors'] = 'Ошибка добавления пользователя!';
                 }
             }
-            //header("Location: http://my-framework.loc/file");
-        }
 
+        }
+        if(isset($_GET['id'])) {
+            $this->set(compact('user'));
+        }
         $this->setMeta('Регистрация!!!', 'Регистрация', 'Регистрация');
     }
 

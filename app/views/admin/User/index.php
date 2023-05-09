@@ -1,4 +1,18 @@
-<h1>Список пользователей</h1>
+<h1>Список пользователей1</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <?php if (!empty($_SESSION['success_signup_login'])): ?>
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <?=$_SESSION['success_signup_login']; ?>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            <?php endif; ?>
+        </div>
+    </div>
+</div>
+
 <table class="table">
     <thead>
     <tr>

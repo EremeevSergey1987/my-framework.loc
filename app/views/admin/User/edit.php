@@ -1,5 +1,4 @@
 <h1>Редактирование данныйх пользователя</h1>
-
 <div class="container">
     <div class="row">
         <div class="col">
@@ -31,12 +30,12 @@
 <form method="post">
     <div class="mb-3">
         <label for="name" class="form-label">Имя</label>
-        <input name="name" type="text" class="form-control" id="name" placeholder="Иван" value="<?=h($_SESSION['user']['name'])?>">
+        <input name="name" type="text" class="form-control" id="name" placeholder="Иван" value="<?php if(isset($user['name'])){echo h($user['name']);} else {echo $_SESSION['user']['name'];}?>">
     </div>
 
     <div class="mb-3">
         <label for="email" class="form-label">Email</label>
-        <input disabled name="email" type="email" class="form-control" id="email" placeholder="name@example.com" value="<?=h($_SESSION['user']['email'])?>">
+        <input disabled name="email" type="email" class="form-control" id="email" placeholder="name@example.com" value="<?php if(isset($user['email'])){echo h($user['email']);} else {echo $_SESSION['user']['email'];}?>">
     </div>
 
     <div class="mb-3">

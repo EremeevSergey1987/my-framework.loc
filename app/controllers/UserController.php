@@ -3,6 +3,7 @@ namespace app\controllers;
 use app\models\User;
 use wfm\App;
 
+
 /**
  * @property User $model
  */
@@ -89,6 +90,14 @@ class UserController extends AppController
         }
         $this->setMeta('Выход', 'Выход', 'Выход');
         header("Location: http://my-framework.loc/");
+    }
+
+    public function updatepasswordAction()
+    {
+        if (!empty($_POST)) {
+            $this->model->updatePass();
+        }
+        $this->setMeta('Восстановление пароля', 'Восстановление пароля', 'Восстановление пароля');
     }
 
 }

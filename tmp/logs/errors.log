@@ -3772,3 +3772,101 @@
 =================
 [2023-05-08 15:55:36] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
 =================
+[2023-05-09 01:18:01] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 01:24:00] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 01:26:38] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 01:26:39] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 01:28:14] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 01:28:18] Текст ошибки: Не найден вид /var/www/html/my-framework.loc/app/views/User/updatepassword.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 34
+=================
+[2023-05-09 01:28:54] Текст ошибки: Метод app\controllers\UserController::updatepasswordAction не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 60
+=================
+[2023-05-09 01:28:55] Текст ошибки: Метод app\controllers\UserController::updatepasswordAction не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 60
+=================
+[2023-05-09 01:29:20] Текст ошибки: Не найден вид /var/www/html/my-framework.loc/app/views/User/updatepassword.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 34
+=================
+[2023-05-09 01:29:35] Текст ошибки: Undefined array key "title" | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 49
+=================
+[2023-05-09 01:30:16] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 02:49:48] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 02:54:06] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 03:07:14] Текст ошибки: Maximum execution time of 30 seconds exceeded | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/OODBBean.php | Строка: 1187
+=================
+[2023-05-09 03:12:19] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 03:13:30] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 03:15:56] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 03:16:23] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 05:28:46] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/models/User.php | Строка: 34
+=================
+[2023-05-09 05:50:14] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 05:50:51] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 05:55:02] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 05:55:07] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 05:55:10] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 06:00:08] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 06:00:14] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 06:04:01] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 06:05:03] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 06:05:08] Текст ошибки: OODB Store requires a bean, got: array | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/OODB.php | Строка: 119
+=================
+[2023-05-09 06:05:12] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 06:06:56] Текст ошибки: Метод app\controllers\UserController::dellAction не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 60
+=================
+[2023-05-09 06:07:09] Текст ошибки: OODB Store requires a bean, got: array | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/OODB.php | Строка: 119
+=================
+[2023-05-09 06:09:43] Текст ошибки: Undefined array key "title" | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 49
+=================
+[2023-05-09 06:12:51] Текст ошибки: Не найден вид /var/www/html/my-framework.loc/app/views/admin/User/dell.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 34
+=================
+[2023-05-09 07:02:47] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 07:04:54] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-09 07:27:08] Текст ошибки: Метод app\controllers\AppController::controllersAction не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 60
+=================
+[2023-05-09 07:41:58] Текст ошибки: Undefined array key "path" | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 26
+=================
+[2023-05-09 07:42:43] Текст ошибки: Undefined array key "path" | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 26
+=================
+[2023-05-09 07:42:47] Текст ошибки: Undefined array key "path" | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 26
+=================
+[2023-05-09 07:43:08] Текст ошибки: Undefined array key "path" | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 25
+=================
+[2023-05-09 07:43:10] Текст ошибки: Undefined array key "path" | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 25
+=================
+[2023-05-09 07:46:00] Текст ошибки: Undefined array key "path" | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 29
+=================
+[2023-05-09 07:46:47] Текст ошибки: Undefined array key "image" | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 26
+=================
+[2023-05-09 07:47:19] Текст ошибки: Undefined array key "image" | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 26
+=================
+[2023-05-09 07:55:21] Текст ошибки: Undefined array key "image" | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 24
+=================
+[2023-05-09 07:56:04] Текст ошибки: Undefined array key "image" | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 24
+=================
+[2023-05-09 07:56:39] Текст ошибки: Undefined variable $file | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 28
+=================
+[2023-05-09 07:56:56] Текст ошибки: Undefined array key "image" | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 30
+=================

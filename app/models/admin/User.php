@@ -19,10 +19,8 @@ class User extends \app\models\User
     }
     public function dell_user($id)
     {
-        $find = R::getRow("SELECT * FROM users WHERE id =?", [$id]);
-
-        $delete = R::load('users', $find->id);
-        R::trash($delete);
+        $users = R::load('users', $id);
+        R::trash($users);
     }
 
 }

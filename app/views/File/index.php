@@ -1,5 +1,38 @@
 <h1>Список файлов</h1>
 <?php if(isset($_SESSION['success_signup_login'])){echo '<p class="text-success">' . $_SESSION['success_signup_login'] . '</p>'; }?>
+
+<!--<form>-->
+<!--    <div class="mb-3">-->
+<!--        <label for="exampleFormControlFile1">Выберете файл</label>-->
+<!--        <input type="file" class="form-control-file" id="exampleFormControlFile1">-->
+<!--    </div>-->
+<!---->
+<!--    <div class="mb-3">-->
+<!--        <button type="submit" class="btn btn-success">Загрузить</button>-->
+<!--    </div>-->
+<!--</form>-->
+
+<form enctype="multipart/form-data" action="app/controllers/admin/newfile.php" method="POST">
+    <input type="file" name="image">
+    <button type="submit">Загрузить</button>
+</form>
+
+
+<?php debug($_FILES);?>
+
+<?php
+if($_FILES){
+    $file = "/var/www/html/my-framework.loc/app/views/File/upload/" . $_FILES['image']['name'];
+    debug($file);
+    move_uploaded_file($_FILES['image']['tmp_name'], $file);
+}
+
+
+
+?>
+
+
+
 <table class="table">
     <thead>
     <tr>

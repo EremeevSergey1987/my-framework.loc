@@ -3380,6 +3380,8 @@
 =================
 [2023-05-05 07:08:14] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/models/User.php | Строка: 32
 =================
+[2023-05-05 07:27:10] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
+=================
 [2023-05-06 05:00:53] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
 =================
 [2023-05-06 05:00:54] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 59
@@ -3935,4 +3937,130 @@
 [2023-05-09 14:21:00] Текст ошибки: Undefined array key "name" | Файл: /var/www/html/my-framework.loc/app/views/admin/User/edit.php | Строка: 39
 =================
 [2023-05-09 14:21:17] Текст ошибки: Undefined variable $user | Файл: /var/www/html/my-framework.loc/app/views/admin/User/edit.php | Строка: 47
+=================
+[2023-05-10 00:32:02] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-10 00:41:08] Текст ошибки: foreach() argument must be of type array|object, string given | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 82
+=================
+[2023-05-10 00:41:20] Текст ошибки: foreach() argument must be of type array|object, string given | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 82
+=================
+[2023-05-10 01:35:20] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/controllers/UserController.php | Строка: 62
+=================
+[2023-05-10 01:37:22] Текст ошибки: move_uploaded_file(/var/www/html/my-framework.loc/public/assets/files/upload/24/2.png): Failed to open stream: Permission denied | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 158
+=================
+[2023-05-10 01:38:30] Текст ошибки: move_uploaded_file(/var/www/html/my-framework.loc/public/assets/files/upload/24/2.png): Failed to open stream: Permission denied | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 158
+=================
+[2023-05-10 01:57:24] Текст ошибки: include(app/controllers/admin/newfile.php): Failed to open stream: No such file or directory | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 1
+=================
+[2023-05-10 01:59:26] Текст ошибки: include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 1
+=================
+[2023-05-10 02:01:55] Текст ошибки: include_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 1
+=================
+[2023-05-10 02:02:32] Текст ошибки: include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 1
+=================
+[2023-05-10 02:02:33] Текст ошибки: include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 1
+=================
+[2023-05-10 02:05:14] Текст ошибки: require_once(../../controllers/admin/newfile.php): Failed to open stream: No such file or directory | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 1
+=================
+[2023-05-10 02:07:17] Текст ошибки: require(../../controllers/admin/newfile.php): Failed to open stream: No such file or directory | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 1
+=================
+[2023-05-10 02:07:38] Текст ошибки: require(../../../controllers/admin/newfile.php): Failed to open stream: No such file or directory | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 1
+=================
+[2023-05-10 02:07:53] Текст ошибки: require(../../controllers/admin/newfile.php): Failed to open stream: No such file or directory | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 1
+=================
+[2023-05-10 02:09:20] Текст ошибки: require(app/controllers/admin/newfile.php): Failed to open stream: No such file or directory | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 1
+=================
+[2023-05-10 02:09:33] Текст ошибки: require(): http:// wrapper is disabled in the server configuration by allow_url_include=0 | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 1
+=================
+[2023-05-10 02:09:50] Текст ошибки: require(/app/controllers/admin/newfile.php): Failed to open stream: No such file or directory | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 1
+=================
+[2023-05-10 02:10:04] Текст ошибки: require(/controllers/admin/newfile.php): Failed to open stream: No such file or directory | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 1
+=================
+[2023-05-10 02:11:27] Текст ошибки: require(/app/controllers/admin/newfile.php): Failed to open stream: No such file or directory | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 1
+=================
+[2023-05-10 02:11:35] Текст ошибки: require(): http:// wrapper is disabled in the server configuration by allow_url_include=0 | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 1
+=================
+[2023-05-10 02:11:45] Текст ошибки: require(../../controllers/admin/newfile.php): Failed to open stream: No such file or directory | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 1
+=================
+[2023-05-10 02:11:58] Текст ошибки: require_once(../../controllers/admin/newfile.php): Failed to open stream: No such file or directory | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 1
+=================
+[2023-05-10 02:12:08] Текст ошибки: include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 1
+=================
+[2023-05-10 02:12:18] Текст ошибки: include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 1
+=================
+[2023-05-10 02:12:23] Текст ошибки: include_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 1
+=================
+[2023-05-10 02:12:30] Текст ошибки: include(app/controllers/admin/newfile.php): Failed to open stream: No such file or directory | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 1
+=================
+[2023-05-10 02:52:31] Текст ошибки: Class "R" not found | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 161
+=================
+[2023-05-10 02:53:15] Текст ошибки: OODB Store requires a bean, got: array | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/OODB.php | Строка: 119
+=================
+[2023-05-10 02:54:22] Текст ошибки: OODB Store requires a bean, got: array | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/OODB.php | Строка: 119
+=================
+[2023-05-10 02:55:44] Текст ошибки: Class "R" not found | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 163
+=================
+[2023-05-10 02:56:07] Текст ошибки: Invalid Array Bean | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Util/DispenseHelper.php | Строка: 138
+=================
+[2023-05-10 04:29:39] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 63
+=================
+[2023-05-10 04:30:22] Текст ошибки: Invalid Array Bean | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Util/DispenseHelper.php | Строка: 138
+=================
+[2023-05-10 04:30:59] Текст ошибки: Invalid Array Bean | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Util/DispenseHelper.php | Строка: 138
+=================
+[2023-05-10 04:31:33] Текст ошибки: Undefined array key "file" | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 159
+=================
+[2023-05-10 04:31:47] Текст ошибки: Undefined array key "file" | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 159
+=================
+[2023-05-10 04:31:58] Текст ошибки: Undefined array key "files" | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 159
+=================
+[2023-05-10 04:32:16] Текст ошибки: Invalid Array Bean | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Util/DispenseHelper.php | Строка: 138
+=================
+[2023-05-10 04:32:46] Текст ошибки: Invalid Array Bean | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Util/DispenseHelper.php | Строка: 138
+=================
+[2023-05-10 04:45:22] Текст ошибки: Undefined property: wfm\View::$model | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 164
+=================
+[2023-05-10 05:02:38] Текст ошибки: foreach() argument must be of type array|object, string given | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 123
+=================
+[2023-05-10 05:03:19] Текст ошибки: foreach() argument must be of type array|object, string given | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 123
+=================
+[2023-05-10 05:03:40] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'main_user' in 'where clause' | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
+=================
+[2023-05-10 05:04:27] Текст ошибки: Attempt to read property "id" on string | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 197
+=================
+[2023-05-10 05:05:00] Текст ошибки: Attempt to read property "file_name" on string | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 198
+=================
+[2023-05-10 05:05:41] Текст ошибки: Attempt to read property "file_name" on string | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 199
+=================
+[2023-05-10 05:11:14] Текст ошибки: Undefined array key "id" | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 198
+=================
+[2023-05-10 05:11:46] Текст ошибки: Cannot use [] for reading | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 198
+=================
+[2023-05-10 05:12:11] Текст ошибки: Undefined array key "id" | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 198
+=================
+[2023-05-10 05:22:59] Текст ошибки: foreach() argument must be of type array|object, string given | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 123
+=================
+[2023-05-10 05:23:17] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '}' at line 1 | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
+=================
+[2023-05-10 05:33:10] Текст ошибки: Undefined variable $diff | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 169
+=================
+[2023-05-10 06:27:08] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/models/User.php | Строка: 33
+=================
+[2023-05-10 06:27:09] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-10 06:55:47] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-10 06:56:15] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'files.PRIMARY' | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
+=================
+[2023-05-10 06:57:16] Текст ошибки: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'id' at row 1 | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
+=================
+[2023-05-10 07:00:07] Текст ошибки: foreach() argument must be of type array|object, int given | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 192
+=================
+[2023-05-10 07:01:57] Текст ошибки: foreach() argument must be of type array|object, int given | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 192
+=================
+[2023-05-10 07:02:43] Текст ошибки: foreach() argument must be of type array|object, int given | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 193
+=================
+[2023-05-10 07:08:11] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(10).png, 27, '1', '1')' at line 1 | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
+=================
+[2023-05-10 07:08:42] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(11).png, 27, '1', '1')' at line 1 | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
 =================

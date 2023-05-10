@@ -59,8 +59,10 @@ class UserController extends AppController
                 $this->model->attributes['password'] = password_hash($this->model->attributes['password'], PASSWORD_DEFAULT);
                 if ($this->model->save('users')){
                     $_SESSION['success_signup_login'] = 'Пользователь добавлен! И авторизован!';
+
                     header("Location: http://my-framework.loc/file");
                     $this->loginAction();
+                    mkdir("/var/www/html/my-framework.loc/public/assets/files/upload/{$_SESSION['user']['id']}", 0777);
                 } else {
                     $_SESSION['errors'] = 'Ошибка добавления пользователя!';
                 }

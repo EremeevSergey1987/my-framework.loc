@@ -8,8 +8,8 @@ use wfm\Model;
 
 class File extends Model
 {
-    public function get_names(): array
+    public function get_files(): array
     {
-        return R::findAll('users');
+        return R::findAll('files');
     }
 }

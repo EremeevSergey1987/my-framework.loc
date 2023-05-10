@@ -34,7 +34,7 @@
     </div>
 </div>
 
-<form enctype="multipart/form-data" action="app/controllers/admin/newfile.php" method="POST">
+<form enctype="multipart/form-data" action="" method="POST">
     <div class="mb-3">
         <input class="form-control" type="file" name="image">
     </div>
@@ -44,8 +44,9 @@
 </form>
 
 <?php
+use app\models\User;
+use RedBeanPHP\R;
 
-// Название <input type="file">
 $input_name = 'image';
 
 // Разрешенные расширения файлов.
@@ -61,7 +62,7 @@ $deny = array(
 // Директория куда будут загружаться файлы.
 //$path = __DIR__ . '/uploads/';
 
-$path = '/var/www/html/my-framework.loc/public/assets/files/upload/000/';
+$path = "/var/www/html/my-framework.loc/public/assets/files/upload/{$_SESSION['user']['id']}/";
 
 if (isset($_FILES[$input_name])) {
     // Проверим директорию для загрузки.
@@ -72,6 +73,8 @@ if (isset($_FILES[$input_name])) {
     // Преобразуем массив $_FILES в удобный вид для перебора в foreach.
     $files = array();
     $diff = count($_FILES[$input_name]) - count($_FILES[$input_name], COUNT_RECURSIVE);
+
+
     if ($diff == 0) {
         $files = array($_FILES[$input_name]);
     } else {
@@ -132,6 +135,8 @@ if (isset($_FILES[$input_name])) {
             $name = strtr($name, $converter);
             $parts = pathinfo($name);
 
+            //$parts['filename'] = hash('sha256', $parts['filename']);
+
             if (empty($name) || empty($parts['extension'])) {
                 $_SESSION['errors'] = 'Недопустимое тип файла';
             } elseif (!empty($allow) && !in_array(strtolower($parts['extension']), $allow)) {
@@ -150,8 +155,13 @@ if (isset($_FILES[$input_name])) {
                 // Перемещаем файл в директорию.
                 if (move_uploaded_file($file['tmp_name'], $path . $name)) {
                     // Далее можно сохранить название файла в БД и т.п.
+                    $user_id = $_SESSION['user']['id'];
+
+                    $files_user = R::exec( "INSERT INTO files  (file_name, main_user, size_file, additional_users) VALUES ('{$name}', {$user_id}, '1', '1'); " );
+
                     $_SESSION['success'] = 'Файл «' . $name . '» успешно загружен.';
-                    header("Location: http://my-framework.loc/file");
+
+                    //header("Location: http://my-framework.loc/file");
                 } else {
                     $_SESSION['errors'] = 'Не удалось загрузить файл.';
                     header("Location: http://my-framework.loc/file");
@@ -178,11 +188,13 @@ if (isset($_FILES[$input_name])) {
     </thead>
     <tbody>
 
+    <?php if(!empty($files_one_user)): ?>
+    <?php foreach ($files_one_user as $file): ?>
     <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>270 Kb.</td>
-        <td>@mdo</td>
+        <th scope="row"><?=$file['id']?></th>
+        <td><?=$file['file_name']?></td>
+        <td><?=$file['size_file']?></td>
+        <td><?=$file['main_user']?></td>
         <td>
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cloud-slash" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M3.112 5.112a3.125 3.125 0 0 0-.17.613C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13H11l-1-1H3.781C2.231 12 1 10.785 1 9.318c0-1.365 1.064-2.513 2.46-2.666l.446-.05v-.447c0-.075.006-.152.018-.231l-.812-.812zm2.55-1.45-.725-.725A5.512 5.512 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773a3.2 3.2 0 0 1-1.516 2.711l-.733-.733C14.498 11.378 15 10.626 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3c-.875 0-1.678.26-2.339.661z"/>
@@ -191,31 +203,11 @@ if (isset($_FILES[$input_name])) {
         </td>
     </tr>
 
-    <tr>
-        <th scope="row">2</th>
-        <td>Jacob</td>
-        <td>150 Kb.</td>
-        <td>@fat</td>
-        <td>
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cloud-slash" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M3.112 5.112a3.125 3.125 0 0 0-.17.613C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13H11l-1-1H3.781C2.231 12 1 10.785 1 9.318c0-1.365 1.064-2.513 2.46-2.666l.446-.05v-.447c0-.075.006-.152.018-.231l-.812-.812zm2.55-1.45-.725-.725A5.512 5.512 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773a3.2 3.2 0 0 1-1.516 2.711l-.733-.733C14.498 11.378 15 10.626 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3c-.875 0-1.678.26-2.339.661z"/>
-                <path d="m13.646 14.354-12-12 .708-.708 12 12-.707.707z"/>
-            </svg>
-        </td>
-    </tr>
+    <?php endforeach; ?>
 
-    <tr>
-        <th scope="row">3</th>
-        <td>Larry the Bird</td>
-        <td>150 Kb.</td>
-        <td>@twitter</td>
+    <?php else: ?>
+        <p>У пользователя нет файлов</p>
+    <?php endif; ?>
 
-        <td>
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cloud-slash" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M3.112 5.112a3.125 3.125 0 0 0-.17.613C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13H11l-1-1H3.781C2.231 12 1 10.785 1 9.318c0-1.365 1.064-2.513 2.46-2.666l.446-.05v-.447c0-.075.006-.152.018-.231l-.812-.812zm2.55-1.45-.725-.725A5.512 5.512 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773a3.2 3.2 0 0 1-1.516 2.711l-.733-.733C14.498 11.378 15 10.626 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3c-.875 0-1.678.26-2.339.661z"/>
-                <path d="m13.646 14.354-12-12 .708-.708 12 12-.707.707z"/>
-            </svg>
-        </td>
-    </tr>
     </tbody>
 </table>

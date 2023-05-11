@@ -48,8 +48,6 @@
                  $controllerObject->getModel();
                  $action = self::loverCamelCase(self::$route['action'] . 'Action');
 
-                 ;
-
                  if(method_exists($controllerObject, $action)){
                      $controllerObject->$action();
                      $controllerObject->getView();
@@ -60,7 +58,7 @@
                  throw new \Exception("Контроллер {$controller} не найден", 404);
              }
          } else {
-             throw new \Exception("Страница не найдена!" . print_r($url), 404);
+             throw new \Exception("Страница не найдена!", 404);
          }
      }
 

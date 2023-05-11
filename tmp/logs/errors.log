@@ -4070,3 +4070,219 @@
 =================
 [2023-05-10 08:07:58] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 16
 =================
+[2023-05-11 00:43:13] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 16
+=================
+[2023-05-11 00:43:14] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-11 01:26:43] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 16
+=================
+[2023-05-11 01:26:55] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 17
+=================
+[2023-05-11 01:27:10] Текст ошибки: Undefined variable $user_id | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 20
+=================
+[2023-05-11 01:27:40] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 65
+=================
+[2023-05-11 01:28:32] Текст ошибки: Class "app\controllers\User" not found | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 16
+=================
+[2023-05-11 01:29:04] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 18
+=================
+[2023-05-11 01:29:53] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 20
+=================
+[2023-05-11 01:31:07] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 21
+=================
+[2023-05-11 01:31:40] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 65
+=================
+[2023-05-11 01:32:30] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 65
+=================
+[2023-05-11 01:32:36] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 21
+=================
+[2023-05-11 01:33:13] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 65
+=================
+[2023-05-11 01:33:18] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 22
+=================
+[2023-05-11 01:33:46] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 65
+=================
+[2023-05-11 01:35:16] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/models/User.php | Строка: 33
+=================
+[2023-05-11 01:35:17] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/models/User.php | Строка: 33
+=================
+[2023-05-11 01:35:49] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/models/User.php | Строка: 33
+=================
+[2023-05-11 01:35:51] Текст ошибки: Контроллер app\controllers\admin\UsersController не найден | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 63
+=================
+[2023-05-11 01:42:25] Текст ошибки: Attempt to read property "id" on array | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 199
+=================
+[2023-05-11 02:01:34] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 66
+=================
+[2023-05-11 02:05:17] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 02:05:51] Текст ошибки: Не найден вид /var/www/html/my-framework.loc/app/views/File/dell.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 34
+=================
+[2023-05-11 02:06:14] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 02:06:15] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 02:06:19] Текст ошибки: Не найден вид /var/www/html/my-framework.loc/app/views/File/dell.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 34
+=================
+[2023-05-11 02:06:24] Текст ошибки: Не найден вид /var/www/html/my-framework.loc/app/views/File/dell.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 34
+=================
+[2023-05-11 02:25:57] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id = 16' at line 1 | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
+=================
+[2023-05-11 02:28:23] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id = 16' at line 1 | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
+=================
+[2023-05-11 02:28:33] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id = 16' at line 1 | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
+=================
+[2023-05-11 02:28:39] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id = 16' at line 1 | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
+=================
+[2023-05-11 02:29:28] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id = 11' at line 1 | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
+=================
+[2023-05-11 02:31:08] Текст ошибки: Array to string conversion | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 20
+=================
+[2023-05-11 02:31:26] Текст ошибки: Array to string conversion | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 20
+=================
+[2023-05-11 02:34:13] Текст ошибки: Array to string conversion | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 20
+=================
+[2023-05-11 02:34:43] Текст ошибки: Array to string conversion | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 20
+=================
+[2023-05-11 02:35:20] Текст ошибки: Array to string conversion | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 20
+=================
+[2023-05-11 02:37:26] Текст ошибки: Identifier does not conform to RedBeanPHP security policies. | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/QueryWriter/AQueryWriter.php | Строка: 851
+=================
+[2023-05-11 02:38:01] Текст ошибки: Identifier does not conform to RedBeanPHP security policies. | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/QueryWriter/AQueryWriter.php | Строка: 851
+=================
+[2023-05-11 02:43:18] Текст ошибки: Array to string conversion | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 21
+=================
+[2023-05-11 02:46:48] Текст ошибки: Undefined array key "files_name" | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 22
+=================
+[2023-05-11 02:47:15] Текст ошибки: Cannot use [] for reading | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 22
+=================
+[2023-05-11 02:47:25] Текст ошибки: Array to string conversion | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 22
+=================
+[2023-05-11 02:47:43] Текст ошибки: Array to string conversion | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 23
+=================
+[2023-05-11 02:47:46] Текст ошибки: Array to string conversion | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 23
+=================
+[2023-05-11 04:31:19] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 24
+=================
+[2023-05-11 04:31:20] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 04:31:52] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 15
+=================
+[2023-05-11 04:31:56] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 15
+=================
+[2023-05-11 04:31:59] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 15
+=================
+[2023-05-11 04:32:19] Текст ошибки: Identifier does not conform to RedBeanPHP security policies. | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/QueryWriter/AQueryWriter.php | Строка: 851
+=================
+[2023-05-11 04:32:25] Текст ошибки: Identifier does not conform to RedBeanPHP security policies. | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/QueryWriter/AQueryWriter.php | Строка: 851
+=================
+[2023-05-11 04:32:30] Текст ошибки: Identifier does not conform to RedBeanPHP security policies. | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/QueryWriter/AQueryWriter.php | Строка: 851
+=================
+[2023-05-11 04:38:46] Текст ошибки: Too few arguments to function RedBeanPHP\Facade::load(), 1 passed in /var/www/html/my-framework.loc/app/controllers/FileController.php on line 25 and at least 2 expected | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php | Строка: 760
+=================
+[2023-05-11 04:43:02] Текст ошибки: unlink(/public/assets/files/upload/27/2.png): No such file or directory | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 23
+=================
+[2023-05-11 04:43:37] Текст ошибки: unlink(/public/assets/files/upload/27/): No such file or directory | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 23
+=================
+[2023-05-11 04:43:56] Текст ошибки: unlink(/public/assets/files/upload/27/2(1).png): No such file or directory | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 23
+=================
+[2023-05-11 04:44:58] Текст ошибки: unlink(/files/upload/27/2(2).png): No such file or directory | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 23
+=================
+[2023-05-11 04:46:02] Текст ошибки: unlink(): http does not allow unlinking | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 23
+=================
+[2023-05-11 04:48:08] Текст ошибки: unlink(../../public/assets/files/upload/27/2(4).png): No such file or directory | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 23
+=================
+[2023-05-11 04:58:54] Текст ошибки: unlink(../../public/assets/files/upload/27/2(5).png): No such file or directory | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 23
+=================
+[2023-05-11 05:00:07] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:00:57] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:01:38] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:02:18] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:02:45] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:02:49] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:06:49] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:07:09] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:08:04] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:08:24] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:13:33] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:18:49] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:20:12] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:22:06] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:23:14] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:23:39] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:23:56] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:23:58] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:24:13] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:25:34] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:40:52] Текст ошибки: unlink(/assets/files/upload/27/2(6).png): No such file or directory | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 23
+=================
+[2023-05-11 05:43:15] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:49:27] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:50:13] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:50:16] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:50:30] Текст ошибки: Class "wfm\Router" not found | Файл: /var/www/html/my-framework.loc/vendor/wfm/App.php | Строка: 15
+=================
+[2023-05-11 05:51:02] Текст ошибки: Call to undefined method wfm\Router::dispatch() | Файл: /var/www/html/my-framework.loc/vendor/wfm/App.php | Строка: 15
+=================
+[2023-05-11 05:51:12] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:51:25] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:52:16] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:52:26] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:52:49] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:53:11] Текст ошибки: Undefined array key "admin_prefix" | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 48
+=================
+[2023-05-11 05:55:24] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 05:57:33] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 08:22:13] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 08:22:16] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 15
+=================
+[2023-05-11 08:22:19] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 08:22:28] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 08:27:52] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 69
+=================
+[2023-05-11 08:32:17] Текст ошибки: Exception::__construct(): Passing null to parameter #1 ($message) of type string is deprecated | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 63
+=================
+[2023-05-11 08:32:54] Текст ошибки: Страница не найдена | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 63
+=================
+[2023-05-11 08:33:19] Текст ошибки: Страница не найдена1 | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 63
+=================
+[2023-05-11 08:34:08] Текст ошибки: Страница не найдена1 | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 63
+=================
+[2023-05-11 08:34:15] Текст ошибки: Страница не найдена!1 | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 63
+=================
+[2023-05-11 08:35:01] Текст ошибки: Страница не найдена!1 | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 63
+=================

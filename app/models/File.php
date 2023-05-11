@@ -12,4 +12,14 @@ class File extends Model
     {
         return R::findAll('files');
     }
+
+    public function dell_file($id, $user_id, $files_name)
+    {
+        $file = R::load('files', $id);
+        R::trash($file);
+
+
+
+        unlink("/assets/files/upload/{$user_id}/{$files_name}");
+    }
 }

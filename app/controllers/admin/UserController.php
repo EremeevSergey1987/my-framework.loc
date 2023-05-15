@@ -4,10 +4,6 @@ namespace app\controllers\admin;
 
 use app\controllers\AppController;
 use app\models\admin\User;
-use RedBeanPHP\R;
-//use wfm\Pagination;
-use wfm\Controller;
-use wfm\App;
 
 
 /** @property User $model */

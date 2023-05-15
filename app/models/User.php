@@ -40,8 +40,7 @@ class User extends AppModel
     {
         $user = R::findOne('users', 'email = ?', [$this->attributes['email']]);
         if ($user) {
-            $this->errors['unique'][] = $text_error ?: 'Пользователь с таким e-mail уже существует. Если это Ваш e-mail попробуйте <a href="#">восстановить пароль</a>';
-
+            $this->errors['unique'][] = $text_error ?: 'Пользователь с таким e-mail уже существует. Если это Ваш e-mail попробуйте <a href="/user/updatepassword">восстановить пароль</a>';
             return false;
         }
         return true;

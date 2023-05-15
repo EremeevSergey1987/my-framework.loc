@@ -1,8 +1,6 @@
 <?php
 namespace app\controllers;
 use app\models\User;
-use wfm\App;
-
 
 /**
  * @property User $model
@@ -71,7 +69,7 @@ class UserController extends AppController
 
     public function loginAction ()
     {
-        if(User::checkAuth()){header("Location: http://my-framework.loc/file");}
+        if(User::checkAuth()){$this->redirect('/file');}
         if (!empty($_POST)){
             if($this->model->login()){
                 //$_SESSION['success'] = 'Вы успешно авторизованы';

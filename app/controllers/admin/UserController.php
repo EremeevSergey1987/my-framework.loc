@@ -15,7 +15,7 @@ class UserController extends AppController
 {
     public function indexAction()
     {
-        if(User::checkAuthRole()){header("Location: http://my-framework.loc/");}
+        if(User::checkAuthRole()){$this->redirect('/file');}
         $users = $this->model->get_users();
         $this->setMeta('Список пользователей', 'Admin', 'Admin');
         $this->set(compact('users'));
@@ -34,7 +34,7 @@ class UserController extends AppController
 
     public function editAction()
     {
-        //if(User::checkAuth()){header("Location: http://my-framework.loc/");}
+        if(User::checkAuth()){$this->redirect('/file');}
         if(isset($_GET['id']))
         {
             $id = $_GET['id'];
@@ -87,7 +87,7 @@ class UserController extends AppController
     {
         $id = $_GET['id'];
         $this->model->dell_user($id);
-        header("Location: http://my-framework.loc/admin/");
+        $this->redirect('/admin/');
         $this->setMeta('Регистрация!!!', 'Регистрация', 'Регистрация');
     }
 }

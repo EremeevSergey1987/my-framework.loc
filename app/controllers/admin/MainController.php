@@ -11,7 +11,7 @@ class MainController extends Controller
 {
     public function indexAction()
     {
-        if(User::checkAuthRole()){header("Location: http://my-framework.loc/");}
+        if(User::checkAuthRole()){$this->redirect('/file');}
 
         $names = $this->model->get_names();
         $this->setMeta('Admin', 'Admin', 'Admin');

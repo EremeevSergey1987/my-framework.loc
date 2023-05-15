@@ -11,7 +11,7 @@ class UserController extends AppController
 {
     public function editAction()
     {
-        if(User::checkAuth()){header("Location: http://my-framework.loc/");}
+        if(User::checkAuth()){$this->redirect();}
 
         if (!empty($_POST)) {
             $this->model->load();
@@ -40,7 +40,6 @@ class UserController extends AppController
                     $_SESSION['errors'] = 'Ошибка добавления пользователя!';
                 }
             }
-            //header("Location: http://my-framework.loc/file");
         }
 
         $this->setMeta('Регистрация!', 'Регистрация', 'Регистрация');
@@ -49,7 +48,7 @@ class UserController extends AppController
 
     public function signupAction()
     {
-        if(User::checkAuth()){header("Location: http://my-framework.loc/");}
+        if(User::checkAuth()){$this->redirect();}
         if(!empty($_POST)){
             $this->model->load();
             if(!$this->model->validate($this->model->attributes) || !$this->model->checkUnique()){
@@ -59,8 +58,7 @@ class UserController extends AppController
                 $this->model->attributes['password'] = password_hash($this->model->attributes['password'], PASSWORD_DEFAULT);
                 if ($this->model->save('users')){
                     $_SESSION['success_signup_login'] = 'Пользователь добавлен! И авторизован!';
-
-                    header("Location: http://my-framework.loc/file");
+                    $this->redirect('/file');
                     $this->loginAction();
                     mkdir("/var/www/html/my-framework.loc/public/assets/files/upload/{$_SESSION['user']['id']}", 0777);
                 } else {
@@ -77,7 +75,7 @@ class UserController extends AppController
         if (!empty($_POST)){
             if($this->model->login()){
                 //$_SESSION['success'] = 'Вы успешно авторизованы';
-                header("Location: http://my-framework.loc/file");
+                $this->redirect('/file');
             } else {
                 $_SESSION['errors'] = 'Ошибка авторизации';
             }
@@ -91,7 +89,7 @@ class UserController extends AppController
             unset($_SESSION['user']);
         }
         $this->setMeta('Выход', 'Выход', 'Выход');
-        header("Location: http://my-framework.loc/");
+        $this->redirect();
     }
 
     public function updatepasswordAction()

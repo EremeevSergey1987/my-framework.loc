@@ -14,6 +14,18 @@ abstract class Controller
     {
 
     }
+
+    public function redirect($action = null)
+    {
+        $main_url = PATH;
+        if($action){
+            header("Location: {$main_url}{$action}");
+        } else {
+            header("Location: {$main_url}");
+        }
+
+    }
+
     public function getModel()
     {
         $model = 'app\models\\' . $this->route['admin_prefix'] . $this->route['controller'];

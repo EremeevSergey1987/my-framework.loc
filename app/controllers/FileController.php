@@ -1,6 +1,5 @@
 <?php
 namespace app\controllers;
-use app\models\User;
 use RedBeanPHP\R;
 use wfm\Controller;
 use app\models\File;
@@ -25,7 +24,7 @@ class FileController extends Controller
         $this->user_id = $_SESSION['user']['id'];
         $files_name = R::load('files', $id);
         $this->model->dell_file($id, $this->user_id, $files_name->file_name);
-        header("Location: http://my-framework.loc/file/");
+        $this->redirect('/file');
         $this->setMeta('Регистрация!!!', 'Регистрация', 'Регистрация');
 
     }
@@ -146,7 +145,7 @@ class FileController extends Controller
                         }
                     }
                 }
-                header("Location: http://my-framework.loc/file");
+                $this->redirect('/file');
             }
         }
     }

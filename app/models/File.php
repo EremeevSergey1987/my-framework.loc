@@ -15,6 +15,6 @@ class File extends Model
     {
         $file = R::load('files', $id);
         R::trash($file);
-        unlink("assets/files/upload/{$user_id}/{$files_name}");
+        unlink($_SERVER["DOCUMENT_ROOT"] . "/assets/files/upload/{$user_id}/{$files_name}");
     }
 }

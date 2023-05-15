@@ -4350,3 +4350,83 @@
 =================
 [2023-05-11 09:13:19] Текст ошибки: unlink(assets/files/upload/27/2(10).png): No such file or directory | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 20
 =================
+[2023-05-15 02:36:12] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 15
+=================
+[2023-05-15 02:36:13] Текст ошибки: Страница не найдена! | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 61
+=================
+[2023-05-15 03:03:39] Текст ошибки: Страница не найдена! | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 61
+=================
+[2023-05-15 03:14:07] Текст ошибки: Undefined variable $file | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 50
+=================
+[2023-05-15 04:10:54] Текст ошибки: Undefined variable $input_name | Файл: /var/www/html/my-framework.loc/app/views/File/index.php | Строка: 70
+=================
+[2023-05-15 04:17:38] Текст ошибки: Страница не найдена! | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 61
+=================
+[2023-05-15 04:18:12] Текст ошибки: Страница не найдена! | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 61
+=================
+[2023-05-15 04:19:09] Текст ошибки: Страница не найдена! | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 61
+=================
+[2023-05-15 04:20:58] Текст ошибки: Страница не найдена! | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 61
+=================
+[2023-05-15 04:30:41] Текст ошибки: Не найден вид /var/www/html/my-framework.loc/app/views/File/dell.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 34
+=================
+[2023-05-15 04:31:10] Текст ошибки: Не найден вид /var/www/html/my-framework.loc/app/views/File/add.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 34
+=================
+[2023-05-15 04:31:32] Текст ошибки: Undefined array key "title" | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 49
+=================
+[2023-05-15 04:32:34] Текст ошибки: Страница не найдена! | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 61
+=================
+[2023-05-15 04:32:50] Текст ошибки: unlink(assets/files/upload/27/111(2).jpg): No such file or directory | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 18
+=================
+[2023-05-15 04:32:55] Текст ошибки: unlink(assets/files/upload/27/111(1).jpg): No such file or directory | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 18
+=================
+[2023-05-15 04:33:03] Текст ошибки: Страница не найдена! | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 61
+=================
+[2023-05-15 04:33:26] Текст ошибки: Страница не найдена! | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 61
+=================
+[2023-05-15 04:33:54] Текст ошибки: Страница не найдена! | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 61
+=================
+[2023-05-15 04:34:09] Текст ошибки: Undefined array key "title" | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 49
+=================
+[2023-05-15 04:34:22] Текст ошибки: Undefined array key "title" | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 49
+=================
+[2023-05-15 04:34:51] Текст ошибки: unlink(assets/files/upload/27/111(5).jpg): No such file or directory | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 18
+=================
+[2023-05-15 04:34:59] Текст ошибки: unlink(assets/files/upload/27/111(4).jpg): No such file or directory | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 18
+=================
+[2023-05-15 04:35:02] Текст ошибки: unlink(assets/files/upload/27/111(3).jpg): No such file or directory | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 18
+=================
+[2023-05-15 04:41:53] Текст ошибки: unlink(assets/files/upload/27/111(7).jpg): No such file or directory | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 18
+=================
+[2023-05-15 04:42:43] Текст ошибки: unlink(/assets/files/upload/27/111(6).jpg): No such file or directory | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 18
+=================
+[2023-05-15 04:44:13] Текст ошибки: unlink(): http does not allow unlinking | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 18
+=================
+[2023-05-15 04:44:49] Текст ошибки: unlink(): http does not allow unlinking | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 18
+=================
+[2023-05-15 04:45:08] Текст ошибки: unlink(assets/files/upload/27/): Is a directory | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 18
+=================
+[2023-05-15 04:45:16] Текст ошибки: unlink(assets/files/upload/27/111(10).jpg): No such file or directory | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 18
+=================
+[2023-05-15 05:17:20] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 24
+=================
+[2023-05-15 05:17:21] Текст ошибки: Страница не найдена! | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 61
+=================
+[2023-05-15 05:18:53] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 26
+=================
+[2023-05-15 05:18:56] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 26
+=================
+[2023-05-15 05:20:54] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 29
+=================
+[2023-05-15 05:21:15] Текст ошибки: Undefined array key "title" | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 49
+=================
+[2023-05-15 05:22:03] Текст ошибки: unlink(assets/files/upload/27/111(11).jpg): No such file or directory | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 18
+=================
+[2023-05-15 05:24:23] Текст ошибки: unlink(/var/www/html/my-framework.loc/public/assets/files/upload/27/111(12).jpg): No such file or directory | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 18
+=================
+[2023-05-15 05:35:50] Текст ошибки: unlink(/var/www/html/my-framework.loc/public/assets/files/upload/27/111(13).jpg): No such file or directory | Файл: /var/www/html/my-framework.loc/app/models/File.php | Строка: 18
+=================
+[2023-05-15 05:43:44] Текст ошибки: Страница не найдена! | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 61
+=================
+[2023-05-15 09:22:26] Текст ошибки: Страница не найдена! | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 61
+=================

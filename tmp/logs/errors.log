@@ -4460,3 +4460,5 @@
 =================
 [2023-05-17 00:12:51] Текст ошибки: Страница не найдена! | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 61
 =================
+[2023-05-17 00:15:03] Текст ошибки: mkdir(): No such file or directory | Файл: /var/www/html/my-framework.loc/app/controllers/UserController.php | Строка: 61
+=================

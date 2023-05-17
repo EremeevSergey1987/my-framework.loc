@@ -9,7 +9,7 @@ define("CACHE", ROOT . '/tmp/cache');
 define("LOGS", ROOT . '/tmp/logs');
 define("CONFIG", ROOT . '/config');
 define("LAYOUT", 'ishop');
-define("PATH", 'http://my-framework.loc/');
+define("PATH", 'http://my-framework.loc');
 define("PATH_IMG", 'http://my-framework.loc/assets/files/upload/');
 define("ADMIN", 'http://my-framework.loc/admin');
 define("NO_IMAGE", 'uploads/no_image.jpg');

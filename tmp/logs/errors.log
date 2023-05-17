@@ -4446,3 +4446,17 @@
 =================
 [2023-05-15 09:22:26] Текст ошибки: Страница не найдена! | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 61
 =================
+[2023-05-15 09:46:46] Текст ошибки: Страница не найдена! | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 61
+=================
+[2023-05-16 03:48:34] Текст ошибки: Не найден вид /var/www/html/my-framework.loc/app/views/File/info.php | Файл: /var/www/html/my-framework.loc/vendor/wfm/View.php | Строка: 34
+=================
+[2023-05-16 03:48:35] Текст ошибки: Страница не найдена! | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 61
+=================
+[2023-05-16 04:23:13] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'КБ, '0')' at line 1 | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
+=================
+[2023-05-16 04:24:03] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'КБ, '0')' at line 1 | Файл: /var/www/html/my-framework.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
+=================
+[2023-05-17 00:12:49] Текст ошибки: Undefined array key "user" | Файл: /var/www/html/my-framework.loc/app/controllers/FileController.php | Строка: 16
+=================
+[2023-05-17 00:12:51] Текст ошибки: Страница не найдена! | Файл: /var/www/html/my-framework.loc/vendor/wfm/Router.php | Строка: 61
+=================

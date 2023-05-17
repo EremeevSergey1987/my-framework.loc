@@ -10,10 +10,11 @@ use app\models\File;
 class FileController extends Controller
 {
     public $user_id;
+
     public function indexAction()
     {
         $this->user_id = $_SESSION['user']['id'];
-        $files_one_user = R::getAll( "SELECT * FROM files WHERE main_user = {$this->user_id}" );
+        $files_one_user = R::getAll("SELECT * FROM files WHERE main_user = {$this->user_id}");
         $this->setMeta('Files', 'Files', 'Files');
         $this->set(compact('files_one_user'));
     }
@@ -26,11 +27,21 @@ class FileController extends Controller
         $this->model->dell_file($id, $this->user_id, $files_name->file_name);
         $this->redirect('/file');
         $this->setMeta('Регистрация!!!', 'Регистрация', 'Регистрация');
-
     }
+
+    public function infoAction()
+    {
+        $id = $_GET['id'];
+        $files_info = R::load('files', $id);
+        $this->set(compact('files_info'));
+        $this->setMeta('Информация', 'Информация', 'Информация');
+    }
+
 
     public function addAction(){
         $this->setMeta('Files', 'Files', 'Files');
+
+
 
         $input_name = 'image';
 
@@ -137,8 +148,9 @@ class FileController extends Controller
                         // Перемещаем файл в директорию.
                         if (move_uploaded_file($file['tmp_name'], $path . $name)) {
                             // Далее можно сохранить название файла в БД и т.п.
+                            $size = $this->formatSize($file['size']);
                             $user_id = $_SESSION['user']['id'];
-                            $files_user = R::exec( "INSERT INTO files  (file_name, main_user, size_file, additional_users) VALUES ('{$name}', {$user_id}, {$file['size']}, '0'); " );
+                            $files_user = R::exec( "INSERT INTO files  (file_name, main_user, size_file, additional_users) VALUES ('{$name}', {$user_id}, '{$size}', '0'); " );
                             $_SESSION['success'] = 'Файл «' . $name . '» успешно загружен.';
                         } else {
                             $_SESSION['errors'] = 'Не удалось загрузить файл.';

@@ -30,7 +30,7 @@ class UserController extends AppController
 
     public function editAction()
     {
-        if(User::checkAuth()){$this->redirect('/file');}
+        //if(User::checkAuth()){$this->redirect('/file');}
         if(isset($_GET['id']))
         {
             $id = $_GET['id'];

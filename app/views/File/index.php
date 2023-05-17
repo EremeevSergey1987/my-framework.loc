@@ -50,11 +50,12 @@
     <tr>
         <th scope="row"><?=$file['id']?></th>
         <td><?=$file['file_name']?></td>
-        <td><?=formatSize($file['size_file'])?></td>
+        <td><?=$file['size_file']?></td>
         <td><?=$file['main_user']?></td>
         <td>
             <a href="/file/dell?id=<?=$file['id']?>">Удалить</a>
-            <a download href="<?=PATH_IMG .$_SESSION['user']['id']."/".$file['file_name']?>">Скачать</a>
+            <a href="/file/info?id=<?=$file['id']?>">Подробнее</a>
+            <a download href="<?=PATH_IMG.$_SESSION['user']['id']."/".$file['file_name']?>">Скачать</a>
         </td>
     </tr>
 
